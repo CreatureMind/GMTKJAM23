@@ -8,6 +8,7 @@ public class BossController : MonoBehaviour
 
     public Vector3 clickedLocation;
     public NavMeshAgent agent;
+    public GameObject playerHeroRefrence;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,7 @@ public class BossController : MonoBehaviour
             {
                 clickedLocation = hit.point;
                agent.SetDestination(clickedLocation);  
+               playerHeroRefrence.GetComponent<HeroController>().Move();
             }
         }
     }

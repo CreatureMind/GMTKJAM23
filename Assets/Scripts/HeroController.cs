@@ -8,7 +8,6 @@ public class HeroController : MonoBehaviour
 
     public float movmentSpeed = 5f;
     public NavMeshAgent agent;
-    public Transform target;
     public float maxMovmentRange;
     public bool isMoving = false;
     public Vector3 centerPosition;
@@ -31,18 +30,18 @@ public class HeroController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!agent.pathPending)
- {
-     if (agent.remainingDistance <= agent.stoppingDistance)
-     {
-         if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
-         {
-            agent.velocity = Vector3.zero;
-            agent.Stop();
-              agent.SetDestination(boss.transform.position);
-         }
-     }
- }
+    agent.SetDestination(boss.transform.position);
+    //  if (agent.remainingDistance <= agent.stoppingDistance)
+    //  {
+    //      if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
+    //      {
+    //         agent.velocity = Vector3.zero;
+    //         agent.Stop();
+    //         print("test");
+    //           Move();
+    //      }
+    //  }
+
 
     }
 
@@ -58,11 +57,11 @@ public class HeroController : MonoBehaviour
 //        Move();          
 
 //      }
-//      public void Move()
-//      {         
-//               isMoving = true;
-//             agent.SetDestination(targetPos);
-//      }
+     public void Move()
+     {         
+              isMoving = true;
+            agent.SetDestination(boss.transform.position);
+     }
 
      void OnDrawGizmosSelected()
      {
