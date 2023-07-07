@@ -14,13 +14,18 @@ public class HeroController : MonoBehaviour
     public Vector3 centerPosition;
     public Vector3 targetPos;
     public HeroMovmentArea movmentArea;
+    private GameObject boss;
 
 
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        FindNewTargetPos();
+        boss = GameObject.Find("Boss");
+            agent.SetDestination(boss.transform.position);
+
+
+       // FindNewTargetPos();
     }
 
     // Update is called once per frame
@@ -32,38 +37,37 @@ public class HeroController : MonoBehaviour
      {
          if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
          {
-              FindNewTargetPos();
+            agent.velocity = Vector3.zero;
+            agent.Stop();
+              agent.SetDestination(boss.transform.position);
          }
      }
  }
 
-
     }
 
-     private void FindNewTargetPos() {
-           maxMovmentRange = movmentArea.circleRadius; //radius of *black circle*
-  centerPosition = gameObject.transform.localPosition; //center of *black circle*
-       Vector3 pos = movmentArea.gameObject.transform.localPosition;
-         targetPos = new Vector3();
-         targetPos.x  = Random.Range(pos.x - maxMovmentRange, pos.x + maxMovmentRange);
-         targetPos.y = pos.y;
-         targetPos.z = Random.Range(pos.z - maxMovmentRange, pos.z + maxMovmentRange);
- 
-         
-       Move();
-            
+//      private void FindNewTargetPos() {
+//            maxMovmentRange = movmentArea.circleRadius; //radius of *black circle*
+//   centerPosition = gameObject.transform.localPosition; //center of *black circle*
+//        Vector3 pos = movmentArea.gameObject.transform.localPosition;
+//          targetPos = new Vector3();
+//          targetPos.x  = Random.Range(pos.x - maxMovmentRange, pos.x + maxMovmentRange);
+//          targetPos.y = pos.y;
+//          targetPos.z = Random.Range(pos.z - maxMovmentRange, pos.z + maxMovmentRange);
+    
+//        Move();          
 
-     }
-     public void Move()
-     {         
-              isMoving = true;
-            GetComponent<NavMeshAgent>().SetDestination(targetPos);
-     }
+//      }
+//      public void Move()
+//      {         
+//               isMoving = true;
+//             agent.SetDestination(targetPos);
+//      }
 
      void OnDrawGizmosSelected()
      {
         Gizmos.color = Color.blue;
-        Gizmos.DrawLine(transform.position, targetPos);
+        Gizmos.DrawLine(transform.position, boss.transform.position);
      }
 
       
