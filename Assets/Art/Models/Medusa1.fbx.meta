@@ -31,7 +31,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftFoot' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -39,7 +40,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -95,7 +96,560 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Medusa1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirl
+      parentName: Medusa1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5000001, y: -0.49999997, z: -0.49999985, w: 0.50000006}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Armature
+      parentName: Medusa1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000014106499, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: DemonGirlPelvis
+      parentName: Armature
+      position: {x: 0.0000000021703783, y: 0.044155743, z: -0.0012679576}
+      rotation: {x: 0.49912706, y: -0.5008715, z: -0.49912706, w: 0.5008714}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999976}
+    - name: DemonGirlLThigh
+      parentName: DemonGirlPelvis
+      position: {x: -0.00078051805, y: 0.002128256, z: 0.003987853}
+      rotation: {x: -0.09221402, y: 0.99188334, z: -0.006333515, w: 0.08731554}
+      scale: {x: 1.000001, y: 1.000001, z: 1.0000007}
+    - name: DemonGirlLCalf
+      parentName: DemonGirlLThigh
+      position: {x: -0.020460987, y: 0.000000031888483, z: -0.000000024606706}
+      rotation: {x: 0.001865915, y: 0.063739106, z: 0.2773408, w: 0.9586532}
+      scale: {x: 1.0000002, y: 1.0000018, z: 1.0000012}
+    - name: DemonGirlLFoot
+      parentName: DemonGirlLCalf
+      position: {x: -0.024747867, y: -0.00000002739951, z: -0.0000000015366822}
+      rotation: {x: -0.07840914, y: -0.017532257, z: -0.7765525, w: 0.6249086}
+      scale: {x: 0.9999975, y: 1, z: 0.9999997}
+    - name: DemonGirlLFoot_end
+      parentName: DemonGirlLFoot
+      position: {x: -2.6077032e-10, y: 0.024747878, z: 7.389826e-10}
+      rotation: {x: 0.0000000074505797, y: -0.00000009872018, z: -0.00000003329478,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: DemonGirlLFoot_end_end
+      parentName: DemonGirlLFoot_end
+      position: {x: -1.4901161e-10, y: 0.024747876, z: 3.400055e-10}
+      rotation: {x: 0.000000037252903, y: -0.000000067055204, z: 0.00000008440109,
+        w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000007}
+    - name: DemonGirlLFoot_end_end_end
+      parentName: DemonGirlLFoot_end_end
+      position: {x: -0, y: 0.024747878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlSpine1
+      parentName: DemonGirlPelvis
+      position: {x: -0.0020720249, y: -0.00015853564, z: -3.0388178e-10}
+      rotation: {x: -0.000000029802322, y: 0.000000014901161, z: -0.14870502, w: 0.98888165}
+      scale: {x: 1.0000014, y: 1.0000012, z: 1.0000006}
+    - name: DemonGirlSpine2
+      parentName: DemonGirlSpine1
+      position: {x: -0.0053097075, y: 0.0000000027204436, z: -3.4246526e-11}
+      rotation: {x: 0.000002500602, y: 0.0000003861956, z: 0.17007367, w: 0.9854314}
+      scale: {x: 1.0000008, y: 1.000001, z: 1.0000011}
+    - name: DemonGirlSpine3
+      parentName: DemonGirlSpine2
+      position: {x: -0.004523149, y: -0.0000000014898163, z: 6.8639566e-11}
+      rotation: {x: -0.000002494332, y: 0.00000014690004, z: 0.08467711, w: 0.99640846}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000002}
+    - name: DemonGirlSpine4
+      parentName: DemonGirlSpine3
+      position: {x: -0.0048142243, y: 0.000000004321273, z: 7.6532813e-10}
+      rotation: {x: -0.00000002472893, y: 0.00000012218945, z: -0.08686126, w: 0.9962204}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1.0000005}
+    - name: DemonGirlRibcage
+      parentName: DemonGirlSpine4
+      position: {x: -0.006597557, y: 0.0000000010428749, z: 8.6458835e-12}
+      rotation: {x: 0.0000000017970032, y: 0.00000006021954, z: -0.021196565, w: 0.99977535}
+      scale: {x: 1.0000011, y: 1.0000011, z: 1.0000002}
+    - name: DemonGirlLCollarbone
+      parentName: DemonGirlRibcage
+      position: {x: 0.000786939, y: 0.0027042553, z: 0.0013652119}
+      rotation: {x: 0.035363194, y: 0.73538846, z: 0.17629337, w: 0.6533559}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000021}
+    - name: DemonGirlLUpperarm
+      parentName: DemonGirlLCollarbone
+      position: {x: -0.0055345274, y: -0.000000004172325, z: -0.00000000115484}
+      rotation: {x: 0.21701589, y: -0.044590827, z: -0.14568742, w: 0.9642049}
+      scale: {x: 1.0000006, y: 0.99999946, z: 1.0000019}
+    - name: DemonGirlLForearm
+      parentName: DemonGirlLUpperarm
+      position: {x: -0.012391999, y: -0.0000000023655593, z: 0.0000000073388216}
+      rotation: {x: -0.026863476, y: -0.029971514, z: -0.014944933, w: 0.9990779}
+      scale: {x: 1.0000052, y: 0.9999956, z: 0.99999976}
+    - name: DemonGirlLPalm
+      parentName: DemonGirlLForearm
+      position: {x: -0.011853281, y: 0.000000014156103, z: -0.0000000016205013}
+      rotation: {x: -0.83948743, y: -0.1279572, z: 0.050088216, w: 0.52571774}
+      scale: {x: 1.0000106, y: 0.9999945, z: 0.99999595}
+    - name: DemonGirlLDigit11
+      parentName: DemonGirlLPalm
+      position: {x: -0.00012289971, y: -0.00091172213, z: 0.0010421637}
+      rotation: {x: -0.07661747, y: 0.11314917, z: 0.07984566, w: 0.9873965}
+      scale: {x: 1.0000011, y: 1.0000073, z: 0.9999914}
+    - name: DemonGirlLDigit12
+      parentName: DemonGirlLDigit11
+      position: {x: -0.0018390326, y: 0.000000017136335, z: -0.0000000035762786}
+      rotation: {x: 0.0080974875, y: 0.008539717, z: 0.03897906, w: 0.9991708}
+      scale: {x: 1.0000107, y: 0.9999978, z: 0.9999913}
+    - name: DemonGirlLDigit13
+      parentName: DemonGirlLDigit12
+      position: {x: -0.0011608319, y: 0.00000001952052, z: -0.0000000020861626}
+      rotation: {x: 0.077012174, y: -0.07701464, z: 0.7028907, w: 0.70291}
+      scale: {x: 0.9999824, y: 1.0000304, z: 0.9999875}
+    - name: DemonGirlLDigit13_end
+      parentName: DemonGirlLDigit13
+      position: {x: -3.72529e-10, y: 0.001160826, z: 0}
+      rotation: {x: 0.000002060085, y: -0.0000007450579, z: -0.0000015199181, w: 1}
+      scale: {x: 1.0000008, y: 1.0000005, z: 0.9999998}
+    - name: DemonGirlLDigit13_end_end
+      parentName: DemonGirlLDigit13_end
+      position: {x: 0.0000000055506826, y: 0.0011608271, z: 2.9802322e-10}
+      rotation: {x: -0.00000167638, y: 0.0000005364419, z: 0.0000013448297, w: 1}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1.0000001}
+    - name: DemonGirlLDigit13_end_end_end
+      parentName: DemonGirlLDigit13_end_end
+      position: {x: -0, y: 0.0011608243, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlLDigit21
+      parentName: DemonGirlLPalm
+      position: {x: -0.0046950453, y: -0.00010521435, z: 0.001268734}
+      rotation: {x: -0.055366244, y: 0.11645069, z: 0.08853483, w: 0.987692}
+      scale: {x: 0.9999966, y: 1.0000118, z: 0.9999927}
+    - name: DemonGirlLDigit22
+      parentName: DemonGirlLDigit21
+      position: {x: -0.0018424713, y: 0.000000006556511, z: 0.000000009536743}
+      rotation: {x: -0.008741387, y: -0.017674321, z: 0.032031264, w: 0.99929243}
+      scale: {x: 1.0000119, y: 0.9999954, z: 0.9999932}
+    - name: DemonGirlLDigit23
+      parentName: DemonGirlLDigit22
+      position: {x: -0.0010979286, y: 0.00000001013279, z: 0.000000001490116}
+      rotation: {x: -0.0000021518194, y: -0.0000025238826, z: 0.69994557, w: 0.7141962}
+      scale: {x: 1.0000123, y: 0.9999986, z: 0.99999183}
+    - name: DemonGirlLDigit23_end
+      parentName: DemonGirlLDigit23
+      position: {x: 0.0000000011920929, y: 0.0010979357, z: -0.000000002980232}
+      rotation: {x: -0.0000009476177, y: 0.0000012110605, z: -0.0000010430828, w: 1}
+      scale: {x: 1.0000008, y: 0.9999994, z: 1.0000006}
+    - name: DemonGirlLDigit23_end_end
+      parentName: DemonGirlLDigit23_end
+      position: {x: 0.0000000011920929, y: 0.0010979286, z: -8.9406965e-10}
+      rotation: {x: 0.0000013457927, y: -0.0000011967184, z: 0.0000009611264, w: 1}
+      scale: {x: 0.99999946, y: 0.9999999, z: 1.0000006}
+    - name: DemonGirlLDigit23_end_end_end
+      parentName: DemonGirlLDigit23_end_end
+      position: {x: -0, y: 0.0010979335, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlLDigit31
+      parentName: DemonGirlLPalm
+      position: {x: -0.0047000125, y: 0.00025342085, z: -0.0004974538}
+      rotation: {x: -0.040041428, y: 0.1059469, z: 0.0847921, w: 0.9899405}
+      scale: {x: 0.9999954, y: 1.0000136, z: 0.99999213}
+    - name: DemonGirlLDigit32
+      parentName: DemonGirlLDigit31
+      position: {x: -0.0018316078, y: 0.0000000038743018, z: -0.000000004470348}
+      rotation: {x: -0.00080317573, y: -0.006198059, z: 0.031467147, w: 0.99948525}
+      scale: {x: 1.0000184, y: 0.9999906, z: 0.9999919}
+    - name: DemonGirlLDigit33
+      parentName: DemonGirlLDigit32
+      position: {x: -0.0016383422, y: 0.00000001758337, z: 0.000000005364418}
+      rotation: {x: -0.008721016, y: 0.008893613, z: 0.70139295, w: 0.712666}
+      scale: {x: 1.0000058, y: 1.0000043, z: 0.9999911}
+    - name: DemonGirlLDigit33_end
+      parentName: DemonGirlLDigit33
+      position: {x: 9.685754e-10, y: 0.0016383361, z: -5.9604643e-10}
+      rotation: {x: 0.0000010265502, y: 0.000000094063566, z: -0.0000011567057, w: 1}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000006}
+    - name: DemonGirlLDigit33_end_end
+      parentName: DemonGirlLDigit33_end
+      position: {x: -0, y: 0.0016383353, z: -0.0000000017881393}
+      rotation: {x: -0.0000010265502, y: -0.00000009313225, z: 0.0000011474734, w: 1}
+      scale: {x: 1.0000008, y: 1.000001, z: 0.9999998}
+    - name: DemonGirlLDigit33_end_end_end
+      parentName: DemonGirlLDigit33_end_end
+      position: {x: -0, y: 0.0016383367, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlLDigit41
+      parentName: DemonGirlLPalm
+      position: {x: -0.004281955, y: -0.000106635016, z: -0.0019846894}
+      rotation: {x: -0.019315349, y: 0.08068359, z: 0.062257685, w: 0.994606}
+      scale: {x: 0.999997, y: 1.0000134, z: 0.99999046}
+    - name: DemonGirlLDigit42
+      parentName: DemonGirlLDigit41
+      position: {x: -0.001192963, y: -4.4703483e-10, z: -2.9802322e-10}
+      rotation: {x: 0.020352751, y: 0.006674798, z: 0.02722537, w: 0.9993998}
+      scale: {x: 1.0000162, y: 0.9999885, z: 0.99999726}
+    - name: DemonGirlLDigit43
+      parentName: DemonGirlLDigit42
+      position: {x: -0.0011182823, y: 0.0000000061839818, z: 0.0000000010430813}
+      rotation: {x: -0.000002606771, y: -0.0000017499544, z: 0.7002393, w: 0.7139082}
+      scale: {x: 1.0000064, y: 1.0000038, z: 0.99999267}
+    - name: DemonGirlLDigit43_end
+      parentName: DemonGirlLDigit43
+      position: {x: -0.0000000010058283, y: 0.0011182815, z: 5.9604643e-10}
+      rotation: {x: -0.000000009447486, y: 0.00000021079397, z: 0.00000003725314,
+        w: 1}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000006}
+    - name: DemonGirlLDigit43_end_end
+      parentName: DemonGirlLDigit43_end
+      position: {x: 8.5681673e-10, y: 0.001118281, z: 0.0000000017881393}
+      rotation: {x: 0.00000006297537, y: -0.0000000066907813, z: 0.00000009685755,
+        w: 1}
+      scale: {x: 0.99999994, y: 1.0000005, z: 0.9999997}
+    - name: DemonGirlLDigit43_end_end_end
+      parentName: DemonGirlLDigit43_end_end
+      position: {x: -0, y: 0.0011182823, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlNeck1
+      parentName: DemonGirlRibcage
+      position: {x: -0.000036007474, y: -0.00015853325, z: -3.0246466e-10}
+      rotation: {x: 0.0000000028206946, y: -0.0000000586473, z: -0.030561054, w: 0.9995329}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: DemonGirlNeck2
+      parentName: DemonGirlNeck1
+      position: {x: -0.0026102236, y: -5.962561e-10, z: -1.910962e-11}
+      rotation: {x: 0.000000021109186, y: -0.00000003647953, z: 0.28894338, w: 0.9573462}
+      scale: {x: 1.0000006, y: 0.99999934, z: 1.0000006}
+    - name: DemonGirlHead
+      parentName: DemonGirlNeck2
+      position: {x: -0.0035638397, y: -8.947089e-10, z: 1.5704472e-10}
+      rotation: {x: -0.0000000057393397, y: 0.000000094068454, z: -0.25955084, w: 0.96572953}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000001}
+    - name: DG_SKIN_body.002
+      parentName: DemonGirlHead
+      position: {x: 0.02731081, y: 0.003892534, z: 0.000000024620094}
+      rotation: {x: 0.7070998, y: 0.0031496503, z: -0.7070998, w: 0.0031375655}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
+    - name: DemonGirlTail1
+      parentName: DemonGirlHead
+      position: {x: -0.006109428, y: -0.0021739088, z: 0.0000000010284696}
+      rotation: {x: -0.00000009110171, y: -0.00000038676495, z: 0.6210802, w: 0.7837471}
+      scale: {x: 1, y: 1.0000008, z: 1.0000011}
+    - name: DemonGirlTail2
+      parentName: DemonGirlTail1
+      position: {x: -0.0043023657, y: -0.0000000015647902, z: 0.0000000017538934}
+      rotation: {x: 0.00000057319915, y: 0.00000002197472, z: 0.37869132, w: 0.92552304}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000011}
+    - name: DemonGirlTail3
+      parentName: DemonGirlTail2
+      position: {x: -0.0030162453, y: -0.000000009534253, z: 0.0000000010347991}
+      rotation: {x: 0.000000058913557, y: 0.0000002331213, z: 0.36561966, w: 0.9307643}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: Hair
+      parentName: DemonGirlTail3
+      position: {x: -0.07786089, y: 0.002835403, z: 0.00000003394233}
+      rotation: {x: -0.54684806, y: -0.44827282, z: 0.54685754, w: -0.44828075}
+      scale: {x: 0.010000004, y: 0.010000005, z: 0.010000003}
+    - name: DemonGirlTail4
+      parentName: DemonGirlTail3
+      position: {x: -0.0045216577, y: -0.0000000026792022, z: 9.0554036e-10}
+      rotation: {x: 0.0000000050669686, y: -0.00000006607318, z: -0.03608566, w: 0.99934876}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: DemonGirlTail5
+      parentName: DemonGirlTail4
+      position: {x: -0.0036340281, y: -0.0000000035739725, z: 7.052267e-10}
+      rotation: {x: 0.000000065978845, y: -0.00000040891447, z: -0.50975454, w: 0.86032}
+      scale: {x: 1.0000015, y: 0.9999996, z: 1.000001}
+    - name: DemonGirlTail5_end
+      parentName: DemonGirlTail5
+      position: {x: 0.000000004769866, y: 0.0036340521, z: -2.728484e-14}
+      rotation: {x: 0.000000019442354, y: -0.000000022587292, z: -0.00000047683696,
+        w: 1}
+      scale: {x: 0.99999976, y: 1, z: 1.0000002}
+    - name: DemonGirlTail5_end_end
+      parentName: DemonGirlTail5_end
+      position: {x: -0.000000007150647, y: 0.0036340498, z: -3.1832315e-14}
+      rotation: {x: -0.000000019442535, y: 0.000000022586976, z: 0.00000032782543,
+        w: 1}
+      scale: {x: 1.0000008, y: 0.9999998, z: 1.0000005}
+    - name: DemonGirlTail5_end_end_end
+      parentName: DemonGirlTail5_end_end
+      position: {x: -0, y: 0.003634036, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlRArmCollarbone
+      parentName: DemonGirlRibcage
+      position: {x: 0.0007869391, y: 0.0027042555, z: -0.0013652127}
+      rotation: {x: 0.035362765, y: 0.7353888, z: -0.17629303, w: -0.65335566}
+      scale: {x: 1.0000008, y: 1, z: 0.9999998}
+    - name: DemonGirlRArmUpperarm
+      parentName: DemonGirlRArmCollarbone
+      position: {x: -0.0055345297, y: -0.0000000038743018, z: -0.0000000035762786}
+      rotation: {x: -0.21701579, y: 0.04459097, z: -0.14568734, w: 0.9642049}
+      scale: {x: 1.0000018, y: 1.0000002, z: 1.0000017}
+    - name: DemonGirlRArmForearm
+      parentName: DemonGirlRArmUpperarm
+      position: {x: -0.012392007, y: 0.0000000024680047, z: -0.0000000064261254}
+      rotation: {x: 0.026866024, y: 0.0299722, z: -0.014944969, w: 0.99907786}
+      scale: {x: 1.0000066, y: 0.99999654, z: 1.0000011}
+    - name: DemonGirlRArmPalm
+      parentName: DemonGirlRArmForearm
+      position: {x: -0.01185328, y: 0.000000011622905, z: -0.0000000144424845}
+      rotation: {x: 0.8394862, y: 0.12795484, z: 0.050088383, w: 0.5257203}
+      scale: {x: 1.0000093, y: 0.9999974, z: 0.9999949}
+    - name: weapon1
+      parentName: DemonGirlRArmPalm
+      position: {x: -0.00407259, y: -0.0019382017, z: 0.0021343825}
+      rotation: {x: -0.032143597, y: 0.99938554, z: -0.01383282, w: -0.0020226354}
+      scale: {x: 4.7874694, y: 4.787617, z: 4.7875433}
+    - name: DemonGirlRArmDigit11
+      parentName: DemonGirlRArmPalm
+      position: {x: -0.00012289881, y: -0.0009117252, z: -0.0010421613}
+      rotation: {x: 0.076622956, y: -0.11314748, z: 0.079839475, w: 0.9873968}
+      scale: {x: 1.0000054, y: 1.0000057, z: 0.9999934}
+    - name: DemonGirlRArmDigit12
+      parentName: DemonGirlRArmDigit11
+      position: {x: -0.0018390111, y: -0.0000000037252903, z: -0.000000002682209}
+      rotation: {x: -0.008092195, y: -0.00853943, z: 0.03897661, w: 0.99917084}
+      scale: {x: 1.0000077, y: 1.0000007, z: 0.9999937}
+    - name: DemonGirlRArmDigit13
+      parentName: DemonGirlRArmDigit12
+      position: {x: -0.0011608423, y: -0.0000000031292438, z: 0}
+      rotation: {x: -0.07701733, y: 0.07701856, z: 0.7029066, w: 0.7028932}
+      scale: {x: 0.99997455, y: 1.0000383, z: 0.999991}
+    - name: DemonGirlRArmDigit13_end
+      parentName: DemonGirlRArmDigit13
+      position: {x: 0.0000000046938657, y: 0.0011608328, z: 8.9406965e-10}
+      rotation: {x: 0.00000003725289, y: 0.000000812113, z: 0.0000022277227, w: 1}
+      scale: {x: 1.0000005, y: 0.9999996, z: 1}
+    - name: DemonGirlRArmDigit13_end_end
+      parentName: DemonGirlRArmDigit13_end
+      position: {x: -3.72529e-10, y: 0.0011608396, z: 7.45058e-10}
+      rotation: {x: -0.0000000894065, y: -0.0000009015198, z: -0.00000301469, w: 1}
+      scale: {x: 1.0000014, y: 1.0000008, z: 1.0000018}
+    - name: DemonGirlRArmDigit13_end_end_end
+      parentName: DemonGirlRArmDigit13_end_end
+      position: {x: -0, y: 0.0011608396, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlRArmDigit21
+      parentName: DemonGirlRArmPalm
+      position: {x: -0.0046950346, y: -0.000105194486, z: -0.0012687376}
+      rotation: {x: 0.05536716, y: -0.116452925, z: 0.08852813, w: 0.98769224}
+      scale: {x: 0.9999977, y: 1.0000132, z: 0.99999213}
+    - name: DemonGirlRArmDigit22
+      parentName: DemonGirlRArmDigit21
+      position: {x: -0.0018424924, y: -0.000000005364418, z: -0.000000004470348}
+      rotation: {x: 0.008742103, y: 0.017675098, z: 0.032030143, w: 0.9992924}
+      scale: {x: 1.0000106, y: 0.9999963, z: 0.99999577}
+    - name: DemonGirlRArmDigit23
+      parentName: DemonGirlRArmDigit22
+      position: {x: -0.0010979283, y: -0.0000000035762786, z: 5.9604643e-10}
+      rotation: {x: 0.0000046072505, y: 0.0000014351674, z: 0.69994867, w: 0.71419317}
+      scale: {x: 1.0000085, y: 0.9999992, z: 0.9999924}
+    - name: DemonGirlRArmDigit23_end
+      parentName: DemonGirlRArmDigit23
+      position: {x: -0.000000001490116, y: 0.0010979432, z: 2.9802322e-10}
+      rotation: {x: -0.000002913446, y: 0.0000009489961, z: -0.0000020489097, w: 1}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000014}
+    - name: DemonGirlRArmDigit23_end_end
+      parentName: DemonGirlRArmDigit23_end
+      position: {x: 8.9406965e-10, y: 0.001097932, z: 0.0000000011920929}
+      rotation: {x: 0.0000022067838, y: -0.0000008004773, z: 0.0000012218951, w: 1}
+      scale: {x: 1.0000008, y: 1.000001, z: 1.000002}
+    - name: DemonGirlRArmDigit23_end_end_end
+      parentName: DemonGirlRArmDigit23_end_end
+      position: {x: -0, y: 0.0010979321, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlRArmDigit31
+      parentName: DemonGirlRArmPalm
+      position: {x: -0.0047000134, y: 0.00025344614, z: 0.0004974538}
+      rotation: {x: 0.040043067, y: -0.10594661, z: 0.08478911, w: 0.9899408}
+      scale: {x: 0.99999744, y: 1.0000125, z: 0.9999942}
+    - name: DemonGirlRArmDigit32
+      parentName: DemonGirlRArmDigit31
+      position: {x: -0.0018315982, y: -0.0000000017881393, z: 0.0000000011920929}
+      rotation: {x: 0.00080659555, y: 0.0061970903, z: 0.03146579, w: 0.9994853}
+      scale: {x: 1.0000194, y: 0.9999871, z: 0.9999936}
+    - name: DemonGirlRArmDigit33
+      parentName: DemonGirlRArmDigit32
+      position: {x: -0.0016383433, y: -0.0000000070035457, z: -0.000000002980232}
+      rotation: {x: 0.008719994, y: -0.008891183, z: 0.7013967, w: 0.7126624}
+      scale: {x: 1.0000042, y: 1.000005, z: 0.99999195}
+    - name: DemonGirlRArmDigit33_end
+      parentName: DemonGirlRArmDigit33
+      position: {x: 0.0000000010430813, y: 0.0016383472, z: -0.0000000020861626}
+      rotation: {x: 0.0000013611275, y: 0.0000007115302, z: 0.0000024226638, w: 1}
+      scale: {x: 1.0000001, y: 0.9999996, z: 1.0000005}
+    - name: DemonGirlRArmDigit33_end_end
+      parentName: DemonGirlRArmDigit33_end
+      position: {x: -0.0000000010430813, y: 0.0016383459, z: 0.0000000011920929}
+      rotation: {x: -0.0000014171811, y: -0.0000006305052, z: -0.0000025782638, w: 1}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000005}
+    - name: DemonGirlRArmDigit33_end_end_end
+      parentName: DemonGirlRArmDigit33_end_end
+      position: {x: -0, y: 0.0016383444, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlRArmDigit41
+      parentName: DemonGirlRArmPalm
+      position: {x: -0.0042819567, y: -0.00010661805, z: 0.0019846887}
+      rotation: {x: 0.0193146, y: -0.08068306, z: 0.062257625, w: 0.994606}
+      scale: {x: 0.9999985, y: 1.0000142, z: 0.9999915}
+    - name: DemonGirlRArmDigit42
+      parentName: DemonGirlRArmDigit41
+      position: {x: -0.0011929603, y: 0.0000000010430813, z: -0.0000000011920929}
+      rotation: {x: -0.020352544, y: -0.0066750217, z: 0.027213518, w: 0.99940014}
+      scale: {x: 1.000017, y: 0.9999876, z: 0.99999684}
+    - name: DemonGirlRArmDigit43
+      parentName: DemonGirlRArmDigit42
+      position: {x: -0.0011182871, y: -0.0000000046938657, z: 2.9802322e-10}
+      rotation: {x: 0.0000019054849, y: -0.000002028885, z: 0.70024854, w: 0.71389914}
+      scale: {x: 1.000004, y: 1.0000067, z: 0.9999927}
+    - name: DemonGirlRArmDigit43_end
+      parentName: DemonGirlRArmDigit43
+      position: {x: -5.9604643e-10, y: 0.0011182986, z: 0.0000000010430813}
+      rotation: {x: -0.0000005601084, y: -0.0000005998355, z: -0.0000022947766, w: 1}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000018}
+    - name: DemonGirlRArmDigit43_end_end
+      parentName: DemonGirlRArmDigit43_end
+      position: {x: 0.000000002235174, y: 0.0011182893, z: 8.9406965e-10}
+      rotation: {x: 0.00000037895978, y: 0.00000079890134, z: 0.0000022873262, w: 1}
+      scale: {x: 1.0000012, y: 1.0000002, z: 1.0000005}
+    - name: DemonGirlRArmDigit43_end_end_end
+      parentName: DemonGirlRArmDigit43_end_end
+      position: {x: -0, y: 0.0011182871, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlTail1.001
+      parentName: DemonGirlPelvis
+      position: {x: -0.0026246794, y: -0.0030839804, z: 1.2864007e-10}
+      rotation: {x: 0.00000044703478, y: -0.000000119209275, z: 0.86120117, w: 0.50826424}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000002}
+    - name: DemonGirlTail2.001
+      parentName: DemonGirlTail1.001
+      position: {x: -0.0045084483, y: 0.000000007749572, z: 9.743655e-10}
+      rotation: {x: -0.00000116282, y: 0.0000004735393, z: -0.29026327, w: 0.95694685}
+      scale: {x: 1.0000013, y: 0.99999917, z: 1.0000011}
+    - name: DemonGirlTail2.001_end
+      parentName: DemonGirlTail2.001
+      position: {x: 2.9619324e-10, y: 0.0045084427, z: -1.5347722e-14}
+      rotation: {x: -0.0000000017812454, y: 0.000000042109747, z: -0.00000074505743,
+        w: 1}
+      scale: {x: 1.000001, y: 1.0000011, z: 1.0000007}
+    - name: DemonGirlTail2.001_end_end
+      parentName: DemonGirlTail2.001_end
+      position: {x: 2.9631148e-10, y: 0.004508444, z: 2.2737367e-15}
+      rotation: {x: 0.0000000017812491, y: -0.00000004210972, z: 0.0000006556511,
+        w: 1}
+      scale: {x: 1.0000002, y: 0.9999997, z: 1.0000008}
+    - name: DemonGirlTail2.001_end_end_end
+      parentName: DemonGirlTail2.001_end_end
+      position: {x: -0, y: 0.0045084436, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlRLegThigh
+      parentName: DemonGirlPelvis
+      position: {x: -0.00078052265, y: 0.0021282574, z: -0.0039878525}
+      rotation: {x: -0.09221353, y: 0.9918834, z: 0.0063332617, w: -0.087315485}
+      scale: {x: 1.0000006, y: 1.0000013, z: 1.000001}
+    - name: DemonGirlRLegCalf
+      parentName: DemonGirlRLegThigh
+      position: {x: -0.02046098, y: 0.000000041015447, z: 0.000000023213214}
+      rotation: {x: -0.001859894, y: -0.06364719, z: 0.2773432, w: 0.95865864}
+      scale: {x: 1.0000011, y: 1.0000006, z: 0.99999833}
+    - name: DemonGirlRLegFoot
+      parentName: DemonGirlRLegCalf
+      position: {x: -0.024747876, y: -0.000000021681188, z: -0.0000000010803342}
+      rotation: {x: 0.07832691, y: 0.017338559, z: -0.7764883, w: 0.6250041}
+      scale: {x: 1.0000017, y: 0.999999, z: 1.0000006}
+    - name: DemonGirlRLegFoot_end
+      parentName: DemonGirlRLegFoot
+      position: {x: -7.4505804e-11, y: 0.024747873, z: 6.263008e-10}
+      rotation: {x: 0.0000000372529, y: -0.000000041909512, z: 0.000000050291412,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000012}
+    - name: DemonGirlRLegFoot_end_end
+      parentName: DemonGirlRLegFoot_end
+      position: {x: -2.9802322e-10, y: 0.024747867, z: 3.9409315e-10}
+      rotation: {x: 0.000000048428767, y: -0.000000104308114, z: 0.00000012794042,
+        w: 1}
+      scale: {x: 1.0000012, y: 1.0000002, z: 1.000001}
+    - name: DemonGirlRLegFoot_end_end_end
+      parentName: DemonGirlRLegFoot_end_end
+      position: {x: -0, y: 0.024747867, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlLPlatform
+      parentName: Armature
+      position: {x: -0.009124043, y: -9.5068876e-11, z: 0.0009878008}
+      rotation: {x: 0.5398099, y: -0.5398097, z: -0.4567333, w: 0.45673358}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.0000008}
+    - name: DemonGirlLPlatform_end
+      parentName: DemonGirlLPlatform
+      position: {x: -1.5543122e-17, y: 0.010000003, z: 1.4901162e-10}
+      rotation: {x: 0.000000029802322, y: -0.000000044703484, z: -0.000000029802322,
+        w: 1}
+      scale: {x: 1.0000014, y: 1.0000007, z: 1.0000008}
+    - name: DemonGirlLPlatform_end_end
+      parentName: DemonGirlLPlatform_end
+      position: {x: -5.3290704e-17, y: 0.009999997, z: 0}
+      rotation: {x: -0, y: -0, z: 1.3322676e-15, w: 1}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000006}
+    - name: DemonGirlLPlatform_end_end_end
+      parentName: DemonGirlLPlatform_end_end
+      position: {x: -0, y: 0.010000001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonGirlRLegPlatform
+      parentName: Armature
+      position: {x: 0.009124043, y: -9.5068946e-11, z: 0.0009878031}
+      rotation: {x: 0.45673355, y: -0.45673338, z: -0.5398097, w: 0.5398098}
+      scale: {x: 1.0000008, y: 1.0000006, z: 1.0000002}
+    - name: DemonGirlRLegPlatform_end
+      parentName: DemonGirlRLegPlatform
+      position: {x: -0, y: 0.009999999, z: 5.960466e-10}
+      rotation: {x: 0.000000029802322, y: 0.000000029802322, z: 0.000000044703484,
+        w: 1}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1.0000006}
+    - name: DemonGirlRLegPlatform_end_end
+      parentName: DemonGirlRLegPlatform_end
+      position: {x: 7.105427e-17, y: 0.009999996, z: -0.0000000014901159}
+      rotation: {x: -0.000000014901163, y: -0.000000044703484, z: -0.000000044703484,
+        w: 1}
+      scale: {x: 1.0000011, y: 1.0000011, z: 1.0000008}
+    - name: DemonGirlRLegPlatform_end_end_end
+      parentName: DemonGirlRLegPlatform_end_end
+      position: {x: -0, y: 0.009999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DG_SKIN_body
+      parentName: Medusa1(Clone)
+      position: {x: -0.000000105168134, y: 4.548211, z: 0.0000014980087}
+      rotation: {x: -0.70710665, y: 3.7560346e-10, z: 3.7558567e-10, w: 0.7071069}
+      scale: {x: 100, y: 100, z: 100}
+    - name: DG_SKIN_pelvisarmor
+      parentName: Medusa1(Clone)
+      position: {x: 0.00012343378, y: 4.548211, z: 0.0000014693985}
+      rotation: {x: -0.70710665, y: 0.0000000045836104, z: -0.0000000012908422, w: 0.7071069}
+      scale: {x: 121.0378, y: 121.0378, z: 121.0378}
+    - name: DG_SKIN_chestarmor
+      parentName: Medusa1(Clone)
+      position: {x: -0.000000028873764, y: 4.54821, z: 0.0000014884718}
+      rotation: {x: -0.70710665, y: -9.877781e-10, z: -0.000000011442198, w: 0.7071069}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Extract5
+      parentName: Medusa1(Clone)
+      position: {x: 0.020349186, y: 3.4355168, z: -0.49407646}
+      rotation: {x: -0.70710665, y: 6.5857003e-10, z: 6.5855305e-10, w: 0.7071069}
+      scale: {x: 100, y: 100, z: 100}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -106,13 +660,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0

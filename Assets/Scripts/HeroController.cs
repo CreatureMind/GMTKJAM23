@@ -19,18 +19,16 @@ public class HeroController : MonoBehaviour
 
     void Start()
     {
-        animator = GetComponent<Animator>();   
+        animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         boss = GameObject.Find("Boss");
         animator.SetBool("IsRunning", true);
         agent.SetDestination(boss.transform.position);
-
     }
 
     void Update()
     {
-
-    agent.SetDestination(boss.transform.position);
+        agent.SetDestination(boss.transform.position);
 
         if (!animator.GetBool("IsDead"))
         {
@@ -40,7 +38,7 @@ public class HeroController : MonoBehaviour
                 animator.SetBool("IsRunning", true);
             }
 
-            if (Vector3.Distance(transform.position, boss.transform.position) < 25.0f) 
+            if (Vector3.Distance(transform.position, boss.transform.position) < 25.0f)
             {
                 animator.SetBool("IsAttacking", true);
                 this.transform.LookAt(boss.transform);
@@ -54,12 +52,10 @@ public class HeroController : MonoBehaviour
         {
             agent.ResetPath();
         }
-
-                
     }
 
-     public void Move()
-     {
+    public void Move()
+    {
         if (!animator.GetBool("IsDead"))
         {
             isMoving = true;
@@ -69,23 +65,29 @@ public class HeroController : MonoBehaviour
         {
             agent.ResetPath();
         }
-     }
+    }
 
-     void OnDrawGizmosSelected()
-     {
+    void OnDrawGizmos()
+    {
         Gizmos.color = Color.blue;
-        Gizmos.DrawLine(transform.position, boss.transform.position);
-     }
+        if (boss != null)
+        {
+            Gizmos.DrawLine(transform.position, boss.transform.position);
+        }
+    }
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Laser" || collision.gameObject.tag == "Slash" || collision.gameObject.tag == "Wave" || collision.gameObject.tag == "Scattar")
+        if (
+            collision.gameObject.tag == "Laser"
+            || collision.gameObject.tag == "Slash"
+            || collision.gameObject.tag == "Wave"
+            || collision.gameObject.tag == "Scattar"
+        )
         {
             animator.SetBool("IsDead", true);
+            animator.SetBool("IsAttacking", false);
             animator.SetBool("IsRunning", false);
         }
-
     }
-
-
 }

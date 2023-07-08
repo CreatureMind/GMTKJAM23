@@ -11,7 +11,7 @@ public class Healthbar : MonoBehaviour
 
         void OnCollisionEnter(Collision collision)
         {
-            if (collision.gameObject.name == "Hero")
+            if (collision.gameObject.tag == "Player")
             {
             Current -= 10;
             OnHit(Fullhealth, Current);
