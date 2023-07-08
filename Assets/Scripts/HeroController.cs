@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
+
 
 public class HeroController : MonoBehaviour
 {
+    public GameCameraManagerManager cameraManager;
     public Healthbar healthbar;
     public float movmentSpeed = 5f;
     public NavMeshAgent agent;
@@ -19,6 +22,7 @@ public class HeroController : MonoBehaviour
 
     void Start()
     {
+        animator.SetBool("IsWonGame", false);
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         boss = GameObject.Find("Boss");
@@ -88,6 +92,7 @@ public class HeroController : MonoBehaviour
             animator.SetBool("IsDead", true);
             animator.SetBool("IsAttacking", false);
             animator.SetBool("IsRunning", false);
+            cameraManager.SetState(GameState.EndGame);
         }
     }
 }

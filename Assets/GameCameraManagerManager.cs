@@ -35,7 +35,7 @@ public class GameCameraManagerManager : MonoBehaviour
         BossCamera.enabled = false;
     }
 
-    void SetState(GameState gameState)
+    public void SetState(GameState gameState)
     {
         if (gameState == GameState.StartScreen)
         {

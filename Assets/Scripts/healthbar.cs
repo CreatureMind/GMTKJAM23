@@ -18,9 +18,9 @@ public class Healthbar : MonoBehaviour
             }
         }
 
-    private void OnHit( float full , float current)
+    private void OnHit( float full , float Current)
     {
-        HealthbarImage.fillAmount = current/full;
+        HealthbarImage.fillAmount = Current/full;
     }
 
 }
