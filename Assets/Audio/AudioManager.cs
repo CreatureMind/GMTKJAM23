@@ -10,7 +10,7 @@ public class AudioManager : MonoBehaviour
 
     public Sound[] sounds;
     public AudioClip[] mainMusicClips;
-    public AudioClip resroucesDropOff;
+    public AudioClip Dash;
 
         void Awake()
     {

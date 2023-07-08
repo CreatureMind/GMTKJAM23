@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 
-
 public class HeroController : MonoBehaviour
 {
     public GameCameraManagerManager cameraManager;
@@ -42,7 +41,7 @@ public class HeroController : MonoBehaviour
                 animator.SetBool("IsRunning", true);
             }
 
-            if (Vector3.Distance(transform.position, boss.transform.position) < 25.0f)
+            if (Vector3.Distance(transform.position, boss.transform.position) < 10.0f)
             {
                 animator.SetBool("IsAttacking", true);
                 this.transform.LookAt(boss.transform);
@@ -80,19 +79,45 @@ public class HeroController : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Laser")
+        {
+            if (GetComponent<DashScript>().CanDash)
+            {
+                GetComponent<DashScript>().Dash();
+            }
+            else
+            {
+                animator.SetBool("IsDead", true);
+                animator.SetBool("IsAttacking", false);
+                animator.SetBool("IsRunning", false);
+                cameraManager.SetState(GameState.EndGame);
+                Time.timeScale = 0;
+            }
+        }
+    }
+
     void OnCollisionEnter(Collision collision)
     {
         if (
-            collision.gameObject.tag == "Laser"
-            || collision.gameObject.tag == "Slash"
+            collision.gameObject.tag == "Slash"
             || collision.gameObject.tag == "Wave"
             || collision.gameObject.tag == "Scattar"
         )
         {
-            animator.SetBool("IsDead", true);
-            animator.SetBool("IsAttacking", false);
-            animator.SetBool("IsRunning", false);
-            cameraManager.SetState(GameState.EndGame);
+            if (GetComponent<DashScript>().CanDash)
+            {
+                GetComponent<DashScript>().Dash();
+            }
+            else
+            {
+                animator.SetBool("IsDead", true);
+                animator.SetBool("IsAttacking", false);
+                animator.SetBool("IsRunning", false);
+                cameraManager.SetState(GameState.EndGame);
+                Time.timeScale = 0;
+            }
         }
     }
 }
