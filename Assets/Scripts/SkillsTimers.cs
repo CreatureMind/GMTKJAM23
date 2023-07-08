@@ -35,6 +35,10 @@ public class SkillsTimers : MonoBehaviour
                 _SkillsProjectiles[i].GetComponent<WaveProjectile>().expandCircle = true;
                 _SkillsProjectiles[i].GetComponent<WaveProjectile>().enteredLoop = true;
                  }
+                  if(_SkillsProjectiles[i].GetComponent<ScatterScript>() != null) //Wave Attack
+                 {
+                _SkillsProjectiles[i].GetComponent<ScatterScript>().activate = true;
+                 }
                  _SkillsProjectiles[i].SetActive(true);
                  _AOE_Script[i]._ShouldFireProjectile = false;
             }
@@ -63,6 +67,7 @@ public class SkillsTimers : MonoBehaviour
                     //  }
                     // }
                      if(_SkillsProjectiles[i].GetComponent<WaveProjectile>() == null)
+                     if(_SkillsProjectiles[i].GetComponent<ScatterScript>() == null)
                      _SkillsProjectiles[i].SetActive(false);
                     // Reset timer
                     _ActiveTimerFire = 0f;
