@@ -8,10 +8,10 @@ public class DashScript : MonoBehaviour
 {
     float full = 100;
     float current = 0 ;
-    public float DashhCooldown = 5f;
+    public float DashhCooldown = 25f;
     private float Dashrefill = 0f;
     [SerializeField] private Image Dashhbar;
-    bool CanDash = false;
+    public bool CanDash = false;
 
     public void Update()
     {
@@ -33,9 +33,9 @@ public class DashScript : MonoBehaviour
         Dashhbar.fillAmount = current / full;
     }
 
-    private void Dash()
+    public void Dash()
     {
-        
+        GetComponent<AudioSource>().Play();
         Dashrefill = 0;
         CanDash = false;
     }
