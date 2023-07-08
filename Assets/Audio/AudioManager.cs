@@ -9,16 +9,7 @@ public class AudioManager : MonoBehaviour
 {
 
     public Sound[] sounds;
-    public AudioClip[] treeChopClips;
-    public AudioClip[] stoneMinepClips;
-    public AudioClip[] constructionpClips;
-    public AudioClip[] walkingClips;
-    public AudioClip[] placeBuildingClips;
-    public AudioClip[] UIClickedClips;
-    public AudioClip[] demolishBuilding;
     public AudioClip[] mainMusicClips;
-    public AudioClip[] selectedCitizensClips;
-    public AudioClip[] hittedTroop;
     public AudioClip resroucesDropOff;
 
         void Awake()
@@ -34,18 +25,18 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-          gameObject.GetComponent<AudioSource>().volume = 0.05f;
+         // gameObject.GetComponent<AudioSource>().volume = 0.05f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        // if(!gameObject.GetComponent<AudioSource>().isPlaying)
-        // {
-        //     gameObject.GetComponent<AudioSource>().clip = GetRandomClip();
-        //     gameObject.GetComponent<AudioSource>().Play();
+        if(!gameObject.GetComponent<AudioSource>().isPlaying)
+        {
+            gameObject.GetComponent<AudioSource>().clip = GetRandomClip();
+            gameObject.GetComponent<AudioSource>().Play();
             
-        // }
+        }
     }
     public AudioClip GetRandomClip()
     {
