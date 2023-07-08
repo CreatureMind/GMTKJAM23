@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -722,7 +722,7 @@ Transform:
   m_Children:
   - {fileID: 1501534126}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &122656546
 GameObject:
@@ -821,6 +821,75 @@ MonoBehaviour:
   _AOE_Max_FlashCounter: 3
   _SkillsTimers_Script: {fileID: 1415537201}
   _ShouldFireProjectile: 0
+--- !u!1001 &186302222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1898652861}
+    m_Modifications:
+    - target: {fileID: 1186467733437214975, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_Name
+      value: Medusa
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f8855a4e0954bc98736ae9d56bc82d, type: 3}
 --- !u!1 &196460434
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,7 +933,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &215275382
 GameObject:
@@ -925,27 +994,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &260730920 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5233112405309087440, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-    type: 3}
-  m_PrefabInstance: {fileID: 2033205088}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &260730924
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 260730920}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.020000009, y: 0.020000009, z: 6.3948843e-16}
-  m_Center: {x: -5.820766e-10, y: 4.656613e-10, z: -5.684342e-14}
 --- !u!1 &261860905
 GameObject:
   m_ObjectHideFlags: 0
@@ -2440,6 +2490,105 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504606504}
   m_CullTransparentMesh: 0
+--- !u!1001 &548534189
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 190.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 190.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 190.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 114.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -28.354
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 174.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.25881898
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9659259
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 210
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e81ba257d2c9f4c2d9ffd92391270d89, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38dc3d2e3e89c45f5b436b0cff2160dc, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38dc3d2e3e89c45f5b436b0cff2160dc, type: 2}
+    - target: {fileID: 919132149155446097, guid: 963a6b7f5fd6b441fa99097735c04f01,
+        type: 3}
+      propertyPath: m_Name
+      value: cave1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 963a6b7f5fd6b441fa99097735c04f01, type: 3}
 --- !u!1 &560615822
 GameObject:
   m_ObjectHideFlags: 0
@@ -2958,84 +3107,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737542380}
   m_CullTransparentMesh: 0
---- !u!1 &749797606
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 749797609}
-  - component: {fileID: 749797608}
-  - component: {fileID: 749797607}
-  m_Layer: 0
-  m_Name: Terrain
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
---- !u!154 &749797607
-TerrainCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 749797606}
-  m_Material: {fileID: 0}
-  m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: abcaed56916eae241bd54f47b5e1dd67, type: 2}
-  m_EnableTreeColliders: 1
---- !u!218 &749797608
-Terrain:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 749797606}
-  m_Enabled: 1
-  serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: abcaed56916eae241bd54f47b5e1dd67, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
-  m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
-  m_DrawHeightmap: 1
-  m_DrawInstanced: 0
-  m_DrawTreesAndFoliage: 1
-  m_StaticShadowCaster: 0
-  m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
-  m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
-  m_DeringLightProbesForTrees: 1
-  m_ScaleInLightmap: 0.0256
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
-  m_GroupingID: 0
-  m_RenderingLayerMask: 1
-  m_AllowAutoConnect: 1
---- !u!4 &749797609
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 749797606}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &756132020
 GameObject:
   m_ObjectHideFlags: 0
@@ -3156,6 +3227,12 @@ RectTransform:
   m_AnchoredPosition: {x: 161, y: -29}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!4 &784878049 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1962723580605934149, guid: 81f8855a4e0954bc98736ae9d56bc82d,
+    type: 3}
+  m_PrefabInstance: {fileID: 186302222}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &791468936
 GameObject:
   m_ObjectHideFlags: 0
@@ -4382,7 +4459,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1027836277
 GameObject:
@@ -5692,7 +5769,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1415537201
 MonoBehaviour:
@@ -5962,7 +6039,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1554589432
 GameObject:
@@ -6265,7 +6342,7 @@ MonoBehaviour:
   sounds: []
   mainMusicClips:
   - {fileID: 8300000, guid: 73af7e06006fb4b71ba4b071d17826f1, type: 3}
-  resroucesDropOff: {fileID: 0}
+  Dash: {fileID: 0}
 --- !u!4 &1673465795
 Transform:
   m_ObjectHideFlags: 0
@@ -6279,7 +6356,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1673465796
 AudioSource:
@@ -6700,7 +6777,7 @@ RectTransform:
   - {fileID: 1061591587}
   - {fileID: 27622044}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7349,7 +7426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898652857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 109, y: 5.1, z: 156}
+  m_LocalPosition: {x: 110, y: 0, z: 265}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7358,9 +7435,9 @@ Transform:
   - {fileID: 1260311851}
   - {fileID: 1811116790}
   - {fileID: 312840379}
-  - {fileID: 543450652196185460}
+  - {fileID: 784878049}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!195 &1898652862
 NavMeshAgent:
@@ -7411,8 +7488,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d86801d0cc1c0428b70014ccc68d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HealthbarImage: {fileID: 1619720597}
-  Current: 100
 --- !u!65 &1898652865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7958,106 +8033,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022863739}
   m_CullTransparentMesh: 0
---- !u!1001 &2033205088
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 66.1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 48.1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.24598417
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.9692739
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -151.52
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -1461304994638716399, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -3846018093981099296, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-    - target: {fileID: 919132149155446097, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_Name
-      value: Cave
-      objectReference: {fileID: 0}
-    - target: {fileID: 5233112405309087440, guid: ffa02a3dd83d7c34e852a683bc2be3d8,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ffa02a3dd83d7c34e852a683bc2be3d8, type: 3}
 --- !u!1 &2048896303
 GameObject:
   m_ObjectHideFlags: 0
@@ -8265,7 +8240,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2086744407
 GameObject:
@@ -8535,136 +8510,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.50000006
   m_Center: {x: 0.000000059604645, y: 0.000000078231096, z: 0}
---- !u!1 &5921947606306730
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6026043913538952698}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit43_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &10036401891142223
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8299030103983706500}
-  m_LocalRotation: {x: 0.0000008605418, y: 0.000000033527602, z: -0.0000011343507,
-    w: 1}
-  m_LocalPosition: {x: 9.685754e-10, y: 0.0016383361, z: -5.9604643e-10}
-  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5669338616077170021}
-  m_Father: {fileID: 6927744716993303227}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &31245944676582089
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8422750907986295069}
-  m_LocalRotation: {x: 0.00000012978506, y: 0.000000050260148, z: 0.43751964, w: 0.8992089}
-  m_LocalPosition: {x: -0.0030162453, y: -0.000000009534253, z: 0.0000000010347991}
-  m_LocalScale: {x: 0.99999964, y: 0.9999999, z: 0.9999998}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7593665971320944447}
-  - {fileID: 6058936029478095882}
-  m_Father: {fileID: 7180125316204735924}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &52692239478858413
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2396026640681724518}
-  m_LocalRotation: {x: -0.0050231684, y: -0.008155648, z: 0.2983664, w: 0.9544034}
-  m_LocalPosition: {x: -0.0010979283, y: -0.0000000035762786, z: 5.9604643e-10}
-  m_LocalScale: {x: 0.99999607, y: 1.0000113, z: 0.9999923}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4425425087473795613}
-  m_Father: {fileID: 3561456569133558557}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &75804467281798996
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6473221161363535286}
-  m_Layer: 0
-  m_Name: DemonGirlRibcage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &110618994420724365
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2973517887798440434}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit43_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &153672609781870722
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1843713545546695784}
-  m_Layer: 0
-  m_Name: DemonGirlTail2.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &168545053065129284
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7079094208607217399}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit13_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &191271690042300044
 GameObject:
   m_ObjectHideFlags: 0
@@ -8676,88 +8521,6 @@ GameObject:
   - component: {fileID: 2356000743631863562}
   m_Layer: 0
   m_Name: Bip001 L Thigh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &199643974354275829
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7025871842469102653}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit13_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &205285248910809781
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6366818968435570639}
-  - component: {fileID: 3114532866136436129}
-  - component: {fileID: 325290476665631481}
-  m_Layer: 0
-  m_Name: DG_SKIN_body.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &213551183412399695
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4361099543101726183}
-  m_LocalRotation: {x: 0.0080789635, y: 0.015931573, z: 0.072716646, w: 0.9971927}
-  m_LocalPosition: {x: -0.0018390326, y: 0.000000017136335, z: -0.0000000035762786}
-  m_LocalScale: {x: 1.0000006, y: 1.0000077, z: 0.9999908}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5884855255868757897}
-  m_Father: {fileID: 767980314927361627}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &234084786766238904
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7531881130575904172}
-  m_Layer: 0
-  m_Name: DemonGirlTail5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &251559610545347237
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3082463959231996892}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit13_end_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8820,113 +8583,6 @@ Transform:
   m_Father: {fileID: 634865995060841267}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &325290476665631481
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205285248910809781}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ba687c2bbc366654c9a4068d6c407612, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &365868675207809048
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936123122820849982}
-  m_LocalRotation: {x: -0.0000000113308944, y: -0.00000003298737, z: -0.2624626, w: 0.9649422}
-  m_LocalPosition: {x: -0.0035638397, y: -8.947089e-10, z: 1.5704472e-10}
-  m_LocalScale: {x: 0.99999976, y: 0.99999976, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8300646968910657741}
-  - {fileID: 6366818968435570639}
-  m_Father: {fileID: 8730830225776333549}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &405377530039977921
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5856495525098900412}
-  m_Layer: 0
-  m_Name: DemonGirlRLegThigh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &427041669727763398
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7655373100279185632}
-  m_Layer: 0
-  m_Name: DemonGirlRArmPalm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &435594397445252279
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2514454877216349523}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit12
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &456160879568820022
 GameObject:
   m_ObjectHideFlags: 0
@@ -8938,228 +8594,6 @@ GameObject:
   - component: {fileID: 7012459128530786248}
   m_Layer: 0
   m_Name: Bip001 L Toe0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &456253599673551280
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706267112262235466}
-  m_LocalRotation: {x: 1.4388489e-12, y: 9.204655e-10, z: -0.0000003129244, w: 1}
-  m_LocalPosition: {x: 0.000000004769866, y: 0.0036340521, z: -2.728484e-14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 706845992873171223}
-  m_Father: {fileID: 7531881130575904172}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &458161977020821373
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5706235922935056646}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 3
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ba687c2bbc366654c9a4068d6c407612, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 5384584095694364178, guid: 5bde3b1b4d92e42dfa8700320743e6b7, type: 3}
-  m_Bones:
-  - {fileID: 2842984776865288342}
-  - {fileID: 4604161705835962960}
-  - {fileID: 2201034155639752998}
-  - {fileID: 5318752062124007291}
-  - {fileID: 9101188746559586309}
-  - {fileID: 5710158089540459319}
-  - {fileID: 6489275962470364355}
-  - {fileID: 3924965547669681085}
-  - {fileID: 5891235545881241482}
-  - {fileID: 6638738517261293405}
-  - {fileID: 6473221161363535286}
-  - {fileID: 7268123199615024448}
-  - {fileID: 7947519725899135358}
-  - {fileID: 3005472366491806080}
-  - {fileID: 4615111592189703513}
-  - {fileID: 767980314927361627}
-  - {fileID: 213551183412399695}
-  - {fileID: 5884855255868757897}
-  - {fileID: 7079094208607217399}
-  - {fileID: 3486934430511240259}
-  - {fileID: 6844148875578910795}
-  - {fileID: 4866766407296640604}
-  - {fileID: 5379524808148158995}
-  - {fileID: 1639784997484059437}
-  - {fileID: 6197326454820825836}
-  - {fileID: 7570657592538107998}
-  - {fileID: 3232324663388276274}
-  - {fileID: 6927744716993303227}
-  - {fileID: 10036401891142223}
-  - {fileID: 5669338616077170021}
-  - {fileID: 7496802057559148118}
-  - {fileID: 6764082011925779754}
-  - {fileID: 8482927875214508348}
-  - {fileID: 3786474363653480282}
-  - {fileID: 3072893920272646113}
-  - {fileID: 4948711316617038888}
-  - {fileID: 8730830225776333549}
-  - {fileID: 365868675207809048}
-  - {fileID: 8300646968910657741}
-  - {fileID: 7180125316204735924}
-  - {fileID: 31245944676582089}
-  - {fileID: 7593665971320944447}
-  - {fileID: 7531881130575904172}
-  - {fileID: 456253599673551280}
-  - {fileID: 706845992873171223}
-  - {fileID: 979031479220017255}
-  - {fileID: 5644168959469091724}
-  - {fileID: 4365148517391675510}
-  - {fileID: 7655373100279185632}
-  - {fileID: 7029177134183906374}
-  - {fileID: 2514454877216349523}
-  - {fileID: 7364265372393896501}
-  - {fileID: 3304965473612665682}
-  - {fileID: 2881005778329488845}
-  - {fileID: 4849800081910191533}
-  - {fileID: 3561456569133558557}
-  - {fileID: 52692239478858413}
-  - {fileID: 4425425087473795613}
-  - {fileID: 9100132602448592736}
-  - {fileID: 1096546752612028773}
-  - {fileID: 3070138180184421972}
-  - {fileID: 5040032544752000727}
-  - {fileID: 4472849173187277674}
-  - {fileID: 2856803947204916894}
-  - {fileID: 4361347759609165174}
-  - {fileID: 7470422831868268848}
-  - {fileID: 3083417130216018197}
-  - {fileID: 1410413827552482807}
-  - {fileID: 2973517887798440434}
-  - {fileID: 9089150369157401209}
-  - {fileID: 1843713545546695784}
-  - {fileID: 8727382865155383366}
-  - {fileID: 7406799019929494913}
-  - {fileID: 5856495525098900412}
-  - {fileID: 8819146280734232062}
-  - {fileID: 7760347949206751661}
-  - {fileID: 1357926323789762136}
-  - {fileID: 6789183811313463730}
-  - {fileID: 8677668579723725243}
-  - {fileID: 1367974788711839566}
-  - {fileID: 4722479539699456342}
-  - {fileID: 2469060389166150503}
-  - {fileID: 2146940596542378977}
-  - {fileID: 8136033484282249597}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 2842984776865288342}
-  m_AABB:
-    m_Center: {x: 0.008638099, y: -0.0055326708, z: -0.000065646134}
-    m_Extent: {x: 0.035660326, y: 0.017717743, z: 0.02111321}
-  m_DirtyAABB: 0
---- !u!1 &472346317187116560
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6927744716993303227}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit33
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &510553507221065438
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7180125316204735924}
-  m_Layer: 0
-  m_Name: DemonGirlTail2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &543450652196185460
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148545093582}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.26666668, y: 0.26666668, z: 0.26666668}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8879528567985173994}
-  - {fileID: 2942309852812201155}
-  - {fileID: 7663834936640087824}
-  - {fileID: 5860454106247060378}
-  - {fileID: 6169481203205357027}
-  - {fileID: 3146283119673606590}
-  m_Father: {fileID: 1898652861}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &572416254571906572
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 767980314927361627}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9199,41 +8633,8 @@ Transform:
   - {fileID: 1027836278}
   - {fileID: 2068750707}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &642439031965735159
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3146283119673606590}
-  - component: {fileID: 9073663936477601959}
-  m_Layer: 0
-  m_Name: Extract5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &661876958043447323
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7760347949206751661}
-  m_Layer: 0
-  m_Name: DemonGirlRLegFoot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &676773236356728794
 Transform:
   m_ObjectHideFlags: 0
@@ -9251,119 +8652,6 @@ Transform:
   m_Father: {fileID: 4620532937468400874}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &689440483948960115
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1357926323789762136}
-  m_Layer: 0
-  m_Name: DemonGirlRLegFoot_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &706845992873171223
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7383707301284471594}
-  m_LocalRotation: {x: -3.1974423e-14, y: -9.2050806e-10, z: 0.00000030547383, w: 1}
-  m_LocalPosition: {x: -0.000000007150647, y: 0.0036340498, z: -3.1832315e-14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1455852633254665613}
-  m_Father: {fileID: 456253599673551280}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &709420606255627066
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8677668579723725243}
-  m_Layer: 0
-  m_Name: DemonGirlLPlatform
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &767980314927361627
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572416254571906572}
-  m_LocalRotation: {x: -0.007483087, y: -0.0275375, z: 0.5010222, w: 0.8649638}
-  m_LocalPosition: {x: -0.00012289971, y: -0.00091172213, z: 0.0010421637}
-  m_LocalScale: {x: 1.0000125, y: 0.9999965, z: 0.99999243}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 213551183412399695}
-  m_Father: {fileID: 4615111592189703513}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &810548616363247292
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4425425087473795613}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit23_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &919132148545093582
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 543450652196185460}
-  - component: {fileID: 5866666020376575758}
-  m_Layer: 0
-  m_Name: Medusa1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &936123122820849982
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 365868675207809048}
-  m_Layer: 0
-  m_Name: DemonGirlHead
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &969433057927815427
 Transform:
   m_ObjectHideFlags: 0
@@ -9379,22 +8667,6 @@ Transform:
   - {fileID: 8003292228895571403}
   m_Father: {fileID: 3029629871920169985}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &979031479220017255
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7850988985706879794}
-  m_LocalRotation: {x: -0.106765226, y: -0.74614, z: 0.244391, w: 0.6100404}
-  m_LocalPosition: {x: 0.0007869391, y: 0.0027042555, z: -0.0013652127}
-  m_LocalScale: {x: 1.0000002, y: 1, z: 0.9999996}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5644168959469091724}
-  m_Father: {fileID: 6473221161363535286}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1003106879725965006
 GameObject:
@@ -9428,22 +8700,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1096546752612028773
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3929060957028934528}
-  m_LocalRotation: {x: 0.0054313936, y: -0.03007602, z: 0.45771328, w: 0.8885744}
-  m_LocalPosition: {x: -0.0047000134, y: 0.00025344614, z: 0.0004974538}
-  m_LocalScale: {x: 1.0000092, y: 0.9999985, z: 0.999992}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3070138180184421972}
-  m_Father: {fileID: 7655373100279185632}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1235938340517206700
 Transform:
   m_ObjectHideFlags: 0
@@ -9475,22 +8731,6 @@ Transform:
   m_Father: {fileID: 8003292228895571403}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1308017157520945139
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9100132602448592736}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit23_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1350630478140349563
 GameObject:
   m_ObjectHideFlags: 0
@@ -9507,105 +8747,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1357926323789762136
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 689440483948960115}
-  m_LocalRotation: {x: -0.000000109224324, y: -0.00000009417657, z: 0.00000006426125,
-    w: 1}
-  m_LocalPosition: {x: -7.4505804e-11, y: 0.024747873, z: 6.263008e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000004}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6789183811313463730}
-  m_Father: {fileID: 7760347949206751661}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1367974788711839566
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3955319972301853576}
-  m_LocalRotation: {x: 0.000000052154068, y: -0.000000039348322, z: -0.0000000074505664,
-    w: 1}
-  m_LocalPosition: {x: -1.5543122e-17, y: 0.010000003, z: 1.4901162e-10}
-  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4722479539699456342}
-  m_Father: {fileID: 8677668579723725243}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1410413827552482807
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4662384846517553651}
-  m_LocalRotation: {x: -0.0000006817282, y: -0.0000006239861, z: -0.000002184883,
-    w: 1}
-  m_LocalPosition: {x: -5.9604643e-10, y: 0.0011182986, z: 0.0000000010430813}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2973517887798440434}
-  m_Father: {fileID: 3083417130216018197}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1455852633254665613
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5341873054359536742}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.003634036, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 706845992873171223}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1515408692065845000
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3083417130216018197}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit43
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1639784997484059437
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6212369438491795886}
-  m_LocalRotation: {x: -0.0000011287627, y: 0.0000012591479, z: -0.0000011250376,
-    w: 1}
-  m_LocalPosition: {x: 0.0000000011920929, y: 0.0010979357, z: -0.000000002980232}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6197326454820825836}
-  m_Father: {fileID: 5379524808148158995}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1674211748316105317
 Transform:
   m_ObjectHideFlags: 0
@@ -9624,37 +8765,6 @@ Transform:
   m_Father: {fileID: 305346618728922629}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1764973049624804464
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8343541236293415304}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.010000001, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4722479539699456342}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1843713545546695784
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153672609781870722}
-  m_LocalRotation: {x: -0.00000023714297, y: 0.0000002476715, z: -0.2902634, w: 0.9569468}
-  m_LocalPosition: {x: -0.0045084483, y: 0.000000007749572, z: 9.743655e-10}
-  m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8727382865155383366}
-  m_Father: {fileID: 9089150369157401209}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1858495359097011817
 GameObject:
   m_ObjectHideFlags: 0
@@ -9671,70 +8781,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1860573174767331496
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2842984776865288342}
-  m_Layer: 0
-  m_Name: DemonGirlPelvis
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2026658479805786900
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2241233812644143953}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.009999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8136033484282249597}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2047427706353109896
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5318752062124007291}
-  m_Layer: 0
-  m_Name: DemonGirlLFoot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2146940596542378977
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3013834796027501437}
-  m_LocalRotation: {x: -0.000000022351745, y: -0.0000000023282893, z: -9.10383e-15,
-    w: 1}
-  m_LocalPosition: {x: -0, y: 0.009999999, z: 5.960466e-10}
-  m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8136033484282249597}
-  m_Father: {fileID: 2469060389166150503}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2149474389218961945
 GameObject:
   m_ObjectHideFlags: 0
@@ -9746,38 +8792,6 @@ GameObject:
   - component: {fileID: 1236243987752541518}
   m_Layer: 0
   m_Name: Bip001 R Hand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2201034155639752998
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5219757202805594720}
-  m_LocalRotation: {x: 0.0018432981, y: 0.063750915, z: 0.27737164, w: 0.95864356}
-  m_LocalPosition: {x: -0.020460987, y: 0.000000031888483, z: -0.000000024606706}
-  m_LocalScale: {x: 0.9999992, y: 1.0000002, z: 1.0000005}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5318752062124007291}
-  m_Father: {fileID: 4604161705835962960}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2241233812644143953
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2026658479805786900}
-  m_Layer: 0
-  m_Name: DemonGirlRLegPlatform_end_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9798,22 +8812,6 @@ Transform:
   m_Father: {fileID: 676773236356728794}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2280301980688193938
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8482927875214508348}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit43
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &2356000743631863562
 Transform:
   m_ObjectHideFlags: 0
@@ -9829,118 +8827,6 @@ Transform:
   - {fileID: 3802603975347515821}
   m_Father: {fileID: 1674211748316105317}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2362371784577041715
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8819146280734232062}
-  m_Layer: 0
-  m_Name: DemonGirlRLegCalf
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &2375987153454427201
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7364265372393896501}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit13
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &2377989511050831181
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7029177134183906374}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit11
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &2388021394761935911
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7947519725899135358}
-  m_Layer: 0
-  m_Name: DemonGirlLUpperarm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &2396026640681724518
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 52692239478858413}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit23
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &2460510623565986176
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3439405081045390413}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit43_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2469060389166150503
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8746772571064679361}
-  m_LocalRotation: {x: 0.45673364, y: -0.45673355, z: -0.53980964, w: 0.5398097}
-  m_LocalPosition: {x: 0.009124043, y: -9.5068946e-11, z: 0.0009878031}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2146940596542378977}
-  m_Father: {fileID: 8879528567985173994}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2469694983655372152
 GameObject:
@@ -9958,22 +8844,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2514454877216349523
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 435594397445252279}
-  m_LocalRotation: {x: -0.0029140627, y: -0.017623298, z: -0.23051159, w: 0.97290564}
-  m_LocalPosition: {x: -0.0018390111, y: -0.0000000037252903, z: -0.000000002682209}
-  m_LocalScale: {x: 0.99999887, y: 1.000008, z: 0.99999183}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7364265372393896501}
-  m_Father: {fileID: 7029177134183906374}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2580592517865451750
 GameObject:
   m_ObjectHideFlags: 0
@@ -9990,21 +8860,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2594528206689823747
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3754538439383845595}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.024747867, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6789183811313463730}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2618666122847771089
 Transform:
   m_ObjectHideFlags: 0
@@ -10020,38 +8875,6 @@ Transform:
   m_Father: {fileID: 8566746470021649783}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2671710951158069925
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4167109219691893486}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit33_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &2700082484269131565
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4472849173187277674}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit33_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &2788779690459666548
 GameObject:
   m_ObjectHideFlags: 0
@@ -10069,106 +8892,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &2810278903763002882
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6844148875578910795}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit21
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2842984776865288342
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860573174767331496}
-  m_LocalRotation: {x: 0.49912262, y: -0.50086725, z: -0.49913117, w: 0.5008759}
-  m_LocalPosition: {x: 0.0000000021703783, y: 0.044155743, z: -0.0012679576}
-  m_LocalScale: {x: 0.9999998, y: 0.9999997, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4604161705835962960}
-  - {fileID: 5856495525098900412}
-  - {fileID: 6489275962470364355}
-  - {fileID: 9089150369157401209}
-  m_Father: {fileID: 8879528567985173994}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2856803947204916894
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7189434785408083567}
-  m_LocalRotation: {x: -0.0000014211984, y: -0.00000040046868, z: -0.000002687797,
-    w: 1}
-  m_LocalPosition: {x: -0.0000000010430813, y: 0.0016383459, z: 0.0000000011920929}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8092458557274915750}
-  m_Father: {fileID: 4472849173187277674}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2881005778329488845
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4152755660278891841}
-  m_LocalRotation: {x: 0.000000057742003, y: -0.0000009285287, z: -0.0000030491499,
-    w: 1}
-  m_LocalPosition: {x: -3.72529e-10, y: 0.0011608396, z: 7.45058e-10}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3082463959231996892}
-  m_Father: {fileID: 3304965473612665682}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2942309852812201155
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6947354081456915252}
-  m_LocalRotation: {x: 0.5000001, y: -0.49999997, z: -0.49999985, w: 0.50000006}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 543450652196185460}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2973517887798440434
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110618994420724365}
-  m_LocalRotation: {x: 0.0000005289913, y: 0.0000008419156, z: 0.000002220273, w: 1}
-  m_LocalPosition: {x: 0.000000002235174, y: 0.0011182893, z: 8.9406965e-10}
-  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6026043913538952698}
-  m_Father: {fileID: 1410413827552482807}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3000649077505500913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10202,54 +8925,6 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!4 &3005472366491806080
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3083517800644579026}
-  m_LocalRotation: {x: -0.014624716, y: -0.03640919, z: -0.3645766, w: 0.93034637}
-  m_LocalPosition: {x: -0.012391999, y: -0.0000000023655593, z: 0.0000000073388216}
-  m_LocalScale: {x: 1.0000058, y: 0.9999948, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4615111592189703513}
-  m_Father: {fileID: 7947519725899135358}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3013834796027501437
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2146940596542378977}
-  m_Layer: 0
-  m_Name: DemonGirlRLegPlatform_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &3028636539920030408
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4361347759609165174}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit41
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &3029629871920169985
 Transform:
   m_ObjectHideFlags: 0
@@ -10282,237 +8957,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3070138180184421972
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3144917391012275185}
-  m_LocalRotation: {x: 0.007703411, y: 0.036662847, z: 0.4006575, w: 0.9154617}
-  m_LocalPosition: {x: -0.0018315982, y: -0.0000000017881393, z: 0.0000000011920929}
-  m_LocalScale: {x: 1.0000021, y: 1.0000043, z: 0.9999919}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5040032544752000727}
-  m_Father: {fileID: 1096546752612028773}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &3072893920272646113
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5937929115570639156}
-  m_LocalRotation: {x: 0.00000001490116, y: -0.000000037252907, z: -0.000000007450579,
-    w: 1}
-  m_LocalPosition: {x: 8.5681673e-10, y: 0.001118281, z: 0.0000000017881393}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3439405081045390413}
-  m_Father: {fileID: 3786474363653480282}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &3082463959231996892
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251559610545347237}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0011608396, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2881005778329488845}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &3083417130216018197
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515408692065845000}
-  m_LocalRotation: {x: 0.007887076, y: 0.006858231, z: 0.29037794, w: 0.956855}
-  m_LocalPosition: {x: -0.0011182871, y: -0.0000000046938657, z: 2.9802322e-10}
-  m_LocalScale: {x: 0.9999974, y: 1.0000108, z: 0.99999124}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1410413827552482807}
-  m_Father: {fileID: 7470422831868268848}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3083517800644579026
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3005472366491806080}
-  m_Layer: 0
-  m_Name: DemonGirlLForearm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!33 &3114532866136436129
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205285248910809781}
-  m_Mesh: {fileID: 9186776776675699673, guid: 5bde3b1b4d92e42dfa8700320743e6b7, type: 3}
---- !u!1 &3144917391012275185
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3070138180184421972}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit32
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3146283119673606590
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 642439031965735159}
-  m_LocalRotation: {x: -0.70710665, y: 6.5857003e-10, z: 6.5855305e-10, w: 0.7071069}
-  m_LocalPosition: {x: 0.020349186, y: 3.4355168, z: -0.49407646}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 543450652196185460}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3162062376668952415
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3304965473612665682}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit13_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3232324663388276274
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7109864955519366704}
-  m_LocalRotation: {x: -0.0007856028, y: -0.043607518, z: 0.22149599, w: 0.97418547}
-  m_LocalPosition: {x: -0.0018316078, y: 0.0000000038743018, z: -0.000000004470348}
-  m_LocalScale: {x: 0.9999999, y: 1.0000087, z: 0.9999913}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6927744716993303227}
-  m_Father: {fileID: 7570657592538107998}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &3304965473612665682
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3162062376668952415}
-  m_LocalRotation: {x: -0.000000052154057, y: 0.0000008996576, z: 0.0000023297034,
-    w: 1}
-  m_LocalPosition: {x: 0.0000000046938657, y: 0.0011608328, z: 8.9406965e-10}
-  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2881005778329488845}
-  m_Father: {fileID: 7364265372393896501}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3363540267524631888
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8750823634173663089}
-  m_Layer: 0
-  m_Name: DemonGirlLFoot_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3439405081045390413
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2460510623565986176}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0011182823, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3072893920272646113}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &3486934430511240259
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6174524306973284605}
-  m_LocalRotation: {x: -0.0000018179419, y: 0.0000006072223, z: 0.0000012042001, w: 1}
-  m_LocalPosition: {x: 0.0000000055506826, y: 0.0011608271, z: 2.9802322e-10}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7025871842469102653}
-  m_Father: {fileID: 7079094208607217399}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &3561456569133558557
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5257723748607759880}
-  m_LocalRotation: {x: 0.018199656, y: 0.055497997, z: 0.30604804, w: 0.9502228}
-  m_LocalPosition: {x: -0.0018424924, y: -0.000000005364418, z: -0.000000004470348}
-  m_LocalScale: {x: 0.9999993, y: 1.000008, z: 0.9999919}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 52692239478858413}
-  m_Father: {fileID: 4849800081910191533}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3566630902885796700
 GameObject:
   m_ObjectHideFlags: 0
@@ -10529,242 +8973,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &3666573268016343117
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6489275962470364355}
-  m_Layer: 0
-  m_Name: DemonGirlSpine1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!137 &3708291219843830629
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4800871774691675392}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 3
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: e7a9382fd366c41489fd2da0edceab74, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -2910549437053320984, guid: 5bde3b1b4d92e42dfa8700320743e6b7, type: 3}
-  m_Bones:
-  - {fileID: 2842984776865288342}
-  - {fileID: 4604161705835962960}
-  - {fileID: 2201034155639752998}
-  - {fileID: 5318752062124007291}
-  - {fileID: 9101188746559586309}
-  - {fileID: 5710158089540459319}
-  - {fileID: 6489275962470364355}
-  - {fileID: 3924965547669681085}
-  - {fileID: 5891235545881241482}
-  - {fileID: 6638738517261293405}
-  - {fileID: 6473221161363535286}
-  - {fileID: 7268123199615024448}
-  - {fileID: 7947519725899135358}
-  - {fileID: 3005472366491806080}
-  - {fileID: 4615111592189703513}
-  - {fileID: 767980314927361627}
-  - {fileID: 213551183412399695}
-  - {fileID: 5884855255868757897}
-  - {fileID: 7079094208607217399}
-  - {fileID: 3486934430511240259}
-  - {fileID: 6844148875578910795}
-  - {fileID: 4866766407296640604}
-  - {fileID: 5379524808148158995}
-  - {fileID: 1639784997484059437}
-  - {fileID: 6197326454820825836}
-  - {fileID: 7570657592538107998}
-  - {fileID: 3232324663388276274}
-  - {fileID: 6927744716993303227}
-  - {fileID: 10036401891142223}
-  - {fileID: 5669338616077170021}
-  - {fileID: 7496802057559148118}
-  - {fileID: 6764082011925779754}
-  - {fileID: 8482927875214508348}
-  - {fileID: 3786474363653480282}
-  - {fileID: 3072893920272646113}
-  - {fileID: 4948711316617038888}
-  - {fileID: 8730830225776333549}
-  - {fileID: 365868675207809048}
-  - {fileID: 8300646968910657741}
-  - {fileID: 7180125316204735924}
-  - {fileID: 31245944676582089}
-  - {fileID: 7593665971320944447}
-  - {fileID: 7531881130575904172}
-  - {fileID: 456253599673551280}
-  - {fileID: 706845992873171223}
-  - {fileID: 979031479220017255}
-  - {fileID: 5644168959469091724}
-  - {fileID: 4365148517391675510}
-  - {fileID: 7655373100279185632}
-  - {fileID: 7029177134183906374}
-  - {fileID: 2514454877216349523}
-  - {fileID: 7364265372393896501}
-  - {fileID: 3304965473612665682}
-  - {fileID: 2881005778329488845}
-  - {fileID: 4849800081910191533}
-  - {fileID: 3561456569133558557}
-  - {fileID: 52692239478858413}
-  - {fileID: 4425425087473795613}
-  - {fileID: 9100132602448592736}
-  - {fileID: 1096546752612028773}
-  - {fileID: 3070138180184421972}
-  - {fileID: 5040032544752000727}
-  - {fileID: 4472849173187277674}
-  - {fileID: 2856803947204916894}
-  - {fileID: 4361347759609165174}
-  - {fileID: 7470422831868268848}
-  - {fileID: 3083417130216018197}
-  - {fileID: 1410413827552482807}
-  - {fileID: 2973517887798440434}
-  - {fileID: 9089150369157401209}
-  - {fileID: 1843713545546695784}
-  - {fileID: 8727382865155383366}
-  - {fileID: 7406799019929494913}
-  - {fileID: 5856495525098900412}
-  - {fileID: 8819146280734232062}
-  - {fileID: 7760347949206751661}
-  - {fileID: 1357926323789762136}
-  - {fileID: 6789183811313463730}
-  - {fileID: 8677668579723725243}
-  - {fileID: 1367974788711839566}
-  - {fileID: 4722479539699456342}
-  - {fileID: 2469060389166150503}
-  - {fileID: 2146940596542378977}
-  - {fileID: 8136033484282249597}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 2842984776865288342}
-  m_AABB:
-    m_Center: {x: -0.016736424, y: 0.002534205, z: -0.0000012395903}
-    m_Extent: {x: 0.008730024, y: 0.0058260243, z: 0.007154425}
-  m_DirtyAABB: 0
---- !u!1 &3708335276779733458
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6904529657311054230}
-  - component: {fileID: 7928417071406110937}
-  - component: {fileID: 8119746731386088582}
-  m_Layer: 0
-  m_Name: weapon1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &3724223668396773707
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4615111592189703513}
-  m_Layer: 0
-  m_Name: DemonGirlLPalm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &3734937987150419178
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8730830225776333549}
-  m_Layer: 0
-  m_Name: DemonGirlNeck2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &3754538439383845595
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2594528206689823747}
-  m_Layer: 0
-  m_Name: DemonGirlRLegFoot_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3786474363653480282
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4620629863656648973}
-  m_LocalRotation: {x: 0.000000016763805, y: 0.0000000018626454, z: -0.000000006984919,
-    w: 1}
-  m_LocalPosition: {x: -0.0000000010058283, y: 0.0011182815, z: 5.9604643e-10}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3072893920272646113}
-  m_Father: {fileID: 8482927875214508348}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &3802603975347515821
 Transform:
   m_ObjectHideFlags: 0
@@ -10797,148 +9005,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3924965547669681085
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6836759975865627258}
-  m_LocalRotation: {x: -0.000000007825709, y: 0.000000034317843, z: 0.1783157, w: 0.9839733}
-  m_LocalPosition: {x: -0.0053097075, y: 0.0000000027204436, z: -3.4246526e-11}
-  m_LocalScale: {x: 0.9999996, y: 0.9999998, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5891235545881241482}
-  m_Father: {fileID: 6489275962470364355}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3929060957028934528
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1096546752612028773}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit31
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &3955319972301853576
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1367974788711839566}
-  m_Layer: 0
-  m_Name: DemonGirlLPlatform_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &4152755660278891841
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2881005778329488845}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit13_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4167109219691893486
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2671710951158069925}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0016383367, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5669338616077170021}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4208760521468259430
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4365148517391675510}
-  m_Layer: 0
-  m_Name: DemonGirlRArmForearm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4311898648961252380
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9208957500411604750}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0045084436, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7406799019929494913}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4361099543101726183
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 213551183412399695}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit12
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4361347759609165174
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3028636539920030408}
-  m_LocalRotation: {x: 0.01386654, y: 0.117922515, z: 0.42087477, w: 0.8993144}
-  m_LocalPosition: {x: -0.0042819567, y: -0.00010661805, z: 0.0019846887}
-  m_LocalScale: {x: 1.0000087, y: 1.0000011, z: 0.9999904}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7470422831868268848}
-  m_Father: {fileID: 7655373100279185632}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4361891161020982581
 GameObject:
   m_ObjectHideFlags: 0
@@ -10955,22 +9021,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4365148517391675510
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4208760521468259430}
-  m_LocalRotation: {x: 0.014624963, y: 0.036409114, z: -0.36457667, w: 0.93034637}
-  m_LocalPosition: {x: -0.012392007, y: 0.0000000024680047, z: -0.0000000064261254}
-  m_LocalScale: {x: 1.0000023, y: 0.9999969, z: 0.9999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7655373100279185632}
-  m_Father: {fileID: 5644168959469091724}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4367500714982684640
 GameObject:
   m_ObjectHideFlags: 0
@@ -10987,121 +9037,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &4414222840390209624
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9101188746559586309}
-  m_Layer: 0
-  m_Name: DemonGirlLFoot_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4425425087473795613
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810548616363247292}
-  m_LocalRotation: {x: -0.0000030100348, y: 0.0000010188669, z: -0.0000019147992,
-    w: 1}
-  m_LocalPosition: {x: -0.000000001490116, y: 0.0010979432, z: 2.9802322e-10}
-  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 9100132602448592736}
-  m_Father: {fileID: 52692239478858413}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4435753407834737399
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4604161705835962960}
-  m_Layer: 0
-  m_Name: DemonGirlLThigh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4472849173187277674
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2700082484269131565}
-  m_LocalRotation: {x: 0.000001335517, y: 0.00000041164463, z: 0.000002568588, w: 1}
-  m_LocalPosition: {x: 0.0000000010430813, y: 0.0016383472, z: -0.0000000020861626}
-  m_LocalScale: {x: 1, y: 0.9999998, z: 0.9999997}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2856803947204916894}
-  m_Father: {fileID: 5040032544752000727}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4519572691412304214
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5458858004270624765}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0010979321, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9100132602448592736}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4604161705835962960
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4435753407834737399}
-  m_LocalRotation: {x: -0.09221175, y: 0.9918836, z: -0.0063333497, w: 0.08731505}
-  m_LocalPosition: {x: -0.00078051805, y: 0.002128256, z: 0.003987853}
-  m_LocalScale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2201034155639752998}
-  m_Father: {fileID: 2842984776865288342}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4615111592189703513
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3724223668396773707}
-  m_LocalRotation: {x: -0.70828253, y: -0.022454152, z: 0.042184766, w: 0.70430964}
-  m_LocalPosition: {x: -0.011853281, y: 0.000000014156103, z: -0.0000000016205013}
-  m_LocalScale: {x: 1.0000067, y: 0.99999475, z: 0.9999988}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 767980314927361627}
-  - {fileID: 6844148875578910795}
-  - {fileID: 7570657592538107998}
-  - {fileID: 7496802057559148118}
-  m_Father: {fileID: 3005472366491806080}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4620532937468400874
 Transform:
   m_ObjectHideFlags: 0
@@ -11118,462 +9053,6 @@ Transform:
   m_Father: {fileID: 7932822855331237462}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4620629863656648973
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3786474363653480282}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit43_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &4662384846517553651
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1410413827552482807}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit43_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4722479539699456342
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6457998043757118858}
-  m_LocalRotation: {x: -0.000000014901165, y: -0.000000007683404, z: -7.0499166e-15,
-    w: 1}
-  m_LocalPosition: {x: -5.3290704e-17, y: 0.009999997, z: 0}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1764973049624804464}
-  m_Father: {fileID: 1367974788711839566}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4800871774691675392
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5860454106247060378}
-  - component: {fileID: 3708291219843830629}
-  m_Layer: 0
-  m_Name: DG_SKIN_chestarmor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &4823638750237790739
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5040032544752000727}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit33
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4849800081910191533
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5639922027407878586}
-  m_LocalRotation: {x: 0.008816294, y: -0.067389674, z: 0.48991805, w: 0.8691152}
-  m_LocalPosition: {x: -0.0046950346, y: -0.000105194486, z: -0.0012687376}
-  m_LocalScale: {x: 1.0000099, y: 0.99999905, z: 0.99999106}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3561456569133558557}
-  m_Father: {fileID: 7655373100279185632}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4866766407296640604
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9128868925101662791}
-  m_LocalRotation: {x: -0.008662729, y: -0.06741136, z: 0.12216257, w: 0.99018025}
-  m_LocalPosition: {x: -0.0018424713, y: 0.000000006556511, z: 0.000000009536743}
-  m_LocalScale: {x: 1, y: 1.0000081, z: 0.99999136}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5379524808148158995}
-  m_Father: {fileID: 6844148875578910795}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4948711316617038888
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8038557850847072767}
-  m_LocalRotation: {x: 0.0000000011159264, y: 0.000000025978224, z: -0.027546016,
-    w: 0.99962056}
-  m_LocalPosition: {x: -0.000036007474, y: -0.00015853325, z: -3.0246466e-10}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8730830225776333549}
-  m_Father: {fileID: 6473221161363535286}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4953892102193134325
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8136033484282249597}
-  m_Layer: 0
-  m_Name: DemonGirlRLegPlatform_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &5014578384886882914
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6590650145032299793}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ba687c2bbc366654c9a4068d6c407612, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &5036790621399200295
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6590650145032299793}
-  m_Mesh: {fileID: -3178576508544696699, guid: 5bde3b1b4d92e42dfa8700320743e6b7, type: 3}
---- !u!4 &5040032544752000727
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4823638750237790739}
-  m_LocalRotation: {x: -0.004507559, y: -0.0153645715, z: 0.258081, w: 0.9659906}
-  m_LocalPosition: {x: -0.0016383433, y: -0.0000000070035457, z: -0.000000002980232}
-  m_LocalScale: {x: 0.9999984, y: 1.0000099, z: 0.9999913}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4472849173187277674}
-  m_Father: {fileID: 3070138180184421972}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5219757202805594720
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2201034155639752998}
-  m_Layer: 0
-  m_Name: DemonGirlLCalf
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &5237056920302788037
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9089150369157401209}
-  m_Layer: 0
-  m_Name: DemonGirlTail1.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &5246166349419939829
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6764082011925779754}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit42
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &5252042275549340504
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6197326454820825836}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit23_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &5257723748607759880
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3561456569133558557}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit22
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &5291886722562231267
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7470422831868268848}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit42
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5318752062124007291
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047427706353109896}
-  m_LocalRotation: {x: -0.078492075, y: -0.017602092, z: -0.776493, w: 0.6249702}
-  m_LocalPosition: {x: -0.024747867, y: -0.00000002739951, z: -0.0000000015366822}
-  m_LocalScale: {x: 0.99999875, y: 1.0000007, z: 0.9999998}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 9101188746559586309}
-  m_Father: {fileID: 2201034155639752998}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5341873054359536742
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1455852633254665613}
-  m_Layer: 0
-  m_Name: DemonGirlTail5_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5379524808148158995
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7768002771676433840}
-  m_LocalRotation: {x: 0.00000031497444, y: -0.000000037497024, z: 0.113910556, w: 0.993491}
-  m_LocalPosition: {x: -0.0010979286, y: 0.00000001013279, z: 0.000000001490116}
-  m_LocalScale: {x: 0.99999946, y: 1.0000091, z: 0.9999917}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1639784997484059437}
-  m_Father: {fileID: 4866766407296640604}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5458858004270624765
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4519572691412304214}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit23_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &5639922027407878586
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4849800081910191533}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit21
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5644168959469091724
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9019930399290823619}
-  m_LocalRotation: {x: -0.28411397, y: -0.44498074, z: -0.08644065, w: 0.8448665}
-  m_LocalPosition: {x: -0.0055345297, y: -0.0000000038743018, z: -0.0000000035762786}
-  m_LocalScale: {x: 1.0000007, y: 1.0000001, z: 1.0000007}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4365148517391675510}
-  m_Father: {fileID: 979031479220017255}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &5669338616077170021
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9116850647504394926}
-  m_LocalRotation: {x: -0.0000008791686, y: 0.0000000037252907, z: 0.0000011064113,
-    w: 1}
-  m_LocalPosition: {x: -0, y: 0.0016383353, z: -0.0000000017881393}
-  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4167109219691893486}
-  m_Father: {fileID: 10036401891142223}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5706235922935056646
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7663834936640087824}
-  - component: {fileID: 458161977020821373}
-  m_Layer: 0
-  m_Name: DG_SKIN_body
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5710158089540459319
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7131265536327986918}
-  m_LocalRotation: {x: 0.000000022681863, y: -0.000000008979431, z: -0.0000000037252907,
-    w: 1}
-  m_LocalPosition: {x: -1.4901161e-10, y: 0.024747876, z: 3.400055e-10}
-  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8750823634173663089}
-  m_Father: {fileID: 9101188746559586309}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5791227117936868816
 GameObject:
   m_ObjectHideFlags: 0
@@ -11585,22 +9064,6 @@ GameObject:
   - component: {fileID: 969433057927815427}
   m_Layer: 0
   m_Name: Bip001 R UpperArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &5815057590985091654
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7496802057559148118}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11622,105 +9085,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5856495525098900412
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405377530039977921}
-  m_LocalRotation: {x: -0.09222671, y: 0.99188524, z: 0.006326015, w: -0.08728045}
-  m_LocalPosition: {x: -0.00078052265, y: 0.0021282574, z: -0.0039878525}
-  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8819146280734232062}
-  m_Father: {fileID: 2842984776865288342}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &5860454106247060378
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4800871774691675392}
-  m_LocalRotation: {x: -0.70710665, y: -9.877781e-10, z: -0.000000011442198, w: 0.7071069}
-  m_LocalPosition: {x: -0.000000028873764, y: 4.54821, z: 0.0000014884718}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 543450652196185460}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &5866666020376575758
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148545093582}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 5bde3b1b4d92e42dfa8700320743e6b7, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!4 &5884855255868757897
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6931243769676579054}
-  m_LocalRotation: {x: -0.034947846, y: -0.11417348, z: -0.24029897, w: 0.9633273}
-  m_LocalPosition: {x: -0.0011608319, y: 0.00000001952052, z: -0.0000000020861626}
-  m_LocalScale: {x: 1.0000063, y: 1.0000035, z: 0.9999897}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7079094208607217399}
-  m_Father: {fileID: 213551183412399695}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &5891235545881241482
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8118329299803172355}
-  m_LocalRotation: {x: 0.000000006192293, y: -0.00000006570108, z: 0.088320546, w: 0.99609214}
-  m_LocalPosition: {x: -0.004523149, y: -0.0000000014898163, z: 6.8639566e-11}
-  m_LocalScale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6638738517261293405}
-  m_Father: {fileID: 3924965547669681085}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5937929115570639156
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3072893920272646113}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit43_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &5964982714451791433
 Transform:
   m_ObjectHideFlags: 0
@@ -11736,68 +9100,6 @@ Transform:
   m_Father: {fileID: 305346618728922629}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &6026043913538952698
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5921947606306730}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0011182871, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2973517887798440434}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &6058936029478095882
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6590650145032299793}
-  m_LocalRotation: {x: -0.54684806, y: -0.44827282, z: 0.54685754, w: -0.44828075}
-  m_LocalPosition: {x: -0.07786089, y: 0.002835403, z: 0.00000003394233}
-  m_LocalScale: {x: 0.010000004, y: 0.010000005, z: 0.010000003}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 31245944676582089}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &6169481203205357027
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9149344184772806955}
-  m_LocalRotation: {x: -0.70710665, y: 0.0000000045836104, z: -0.0000000012908422,
-    w: 0.7071069}
-  m_LocalPosition: {x: 0.00012343378, y: 4.548211, z: 0.0000014693985}
-  m_LocalScale: {x: 121.0378, y: 121.0378, z: 121.0378}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 543450652196185460}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6174524306973284605
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3486934430511240259}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit13_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &6191042417026360749
 Transform:
   m_ObjectHideFlags: 0
@@ -11813,38 +9115,6 @@ Transform:
   m_Father: {fileID: 7012459128530786248}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &6197326454820825836
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5252042275549340504}
-  m_LocalRotation: {x: 0.0000013001263, y: -0.000001359731, z: 0.0000009723008, w: 1}
-  m_LocalPosition: {x: 0.0000000011920929, y: 0.0010979286, z: -8.9406965e-10}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7585231854264606034}
-  m_Father: {fileID: 1639784997484059437}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6212369438491795886
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1639784997484059437}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit23_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &6227102016878949098
 GameObject:
   m_ObjectHideFlags: 0
@@ -11877,21 +9147,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6366818968435570639
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205285248910809781}
-  m_LocalRotation: {x: 0.7070998, y: 0.0031496503, z: -0.7070998, w: 0.0031375655}
-  m_LocalPosition: {x: 0.02731081, y: 0.003892534, z: 0.000000024620094}
-  m_LocalScale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 365868675207809048}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6380178278490735872
 Transform:
   m_ObjectHideFlags: 0
@@ -11923,57 +9178,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &6457998043757118858
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4722479539699456342}
-  m_Layer: 0
-  m_Name: DemonGirlLPlatform_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6473221161363535286
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 75804467281798996}
-  m_LocalRotation: {x: 8.152565e-10, y: -0.0000000018053348, z: -0.035371672, w: 0.9993742}
-  m_LocalPosition: {x: -0.006597557, y: 0.0000000010428749, z: 8.6458835e-12}
-  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 0.9999995}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7268123199615024448}
-  - {fileID: 4948711316617038888}
-  - {fileID: 979031479220017255}
-  m_Father: {fileID: 6638738517261293405}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &6489275962470364355
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3666573268016343117}
-  m_LocalRotation: {x: 0.0000000064486883, y: -0.000000017050539, z: -0.13889185,
-    w: 0.99030757}
-  m_LocalPosition: {x: -0.0020720249, y: -0.00015853564, z: -3.0388178e-10}
-  m_LocalScale: {x: 1.0000005, y: 1.0000005, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3924965547669681085}
-  m_Father: {fileID: 2842984776865288342}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6497547220320467411
 GameObject:
   m_ObjectHideFlags: 0
@@ -11990,88 +9194,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &6518872146966270116
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8300646968910657741}
-  m_Layer: 0
-  m_Name: DemonGirlTail1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &6590650145032299793
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6058936029478095882}
-  - component: {fileID: 5036790621399200295}
-  - component: {fileID: 5014578384886882914}
-  m_Layer: 0
-  m_Name: Hair
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6638738517261293405
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7287558776679138594}
-  m_LocalRotation: {x: -0.0000000073675825, y: 0.000000063135, z: -0.094591506, w: 0.9955162}
-  m_LocalPosition: {x: -0.0048142243, y: 0.000000004321273, z: 7.6532813e-10}
-  m_LocalScale: {x: 1, y: 0.9999999, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6473221161363535286}
-  m_Father: {fileID: 5891235545881241482}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6706267112262235466
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 456253599673551280}
-  m_Layer: 0
-  m_Name: DemonGirlTail5_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6764082011925779754
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5246166349419939829}
-  m_LocalRotation: {x: 0.019415902, y: 0.07160822, z: 0.29215813, w: 0.95348775}
-  m_LocalPosition: {x: -0.001192963, y: -4.4703483e-10, z: -2.9802322e-10}
-  m_LocalScale: {x: 1.0000019, y: 1.0000068, z: 0.9999912}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8482927875214508348}
-  m_Father: {fileID: 7496802057559148118}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6786735070518333769
 Animator:
   serializedVersion: 4
@@ -12180,55 +9302,6 @@ MonoBehaviour:
   DashhCooldown: 5
   Dashhbar: {fileID: 808717423}
   CanDash: 0
---- !u!4 &6789183811313463730
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7243354083438902981}
-  m_LocalRotation: {x: 0.000000070617325, y: -0.000000009915041, z: 0.000000013737008,
-    w: 1}
-  m_LocalPosition: {x: -2.9802322e-10, y: 0.024747867, z: 3.9409315e-10}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2594528206689823747}
-  m_Father: {fileID: 1357926323789762136}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6836759975865627258
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3924965547669681085}
-  m_Layer: 0
-  m_Name: DemonGirlSpine2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6844148875578910795
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2810278903763002882}
-  m_LocalRotation: {x: -0.02132567, y: 0.06453181, z: 0.31783712, w: 0.9457063}
-  m_LocalPosition: {x: -0.0046950453, y: -0.00010521435, z: 0.001268734}
-  m_LocalScale: {x: 1.0000083, y: 1.0000012, z: 0.99999213}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4866766407296640604}
-  m_Father: {fileID: 4615111592189703513}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6854799792098818233
 GameObject:
   m_ObjectHideFlags: 0
@@ -12240,69 +9313,6 @@ GameObject:
   - component: {fileID: 7186184273161334958}
   m_Layer: 0
   m_Name: Bip001 R Calf
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6904529657311054230
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3708335276779733458}
-  m_LocalRotation: {x: -0.032143597, y: 0.99938554, z: -0.01383282, w: -0.0020226354}
-  m_LocalPosition: {x: -0.00407259, y: -0.0019382017, z: 0.0021343825}
-  m_LocalScale: {x: 4.7874694, y: 4.787617, z: 4.7875433}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7655373100279185632}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &6927744716993303227
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472346317187116560}
-  m_LocalRotation: {x: 0.0004964046, y: 0.013816581, z: 0.071951285, w: 0.99731237}
-  m_LocalPosition: {x: -0.0016383422, y: 0.00000001758337, z: 0.000000005364418}
-  m_LocalScale: {x: 0.9999999, y: 1.0000094, z: 0.99999046}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 10036401891142223}
-  m_Father: {fileID: 3232324663388276274}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6931243769676579054
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5884855255868757897}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit13
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &6947354081456915252
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2942309852812201155}
-  m_Layer: 0
-  m_Name: DemonGirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12324,134 +9334,6 @@ Transform:
   m_Father: {fileID: 7776236462209648485}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &7025871842469102653
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199643974354275829}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0011608243, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3486934430511240259}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &7029177134183906374
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2377989511050831181}
-  m_LocalRotation: {x: 0.007483898, y: 0.02753762, z: 0.5010196, w: 0.8649653}
-  m_LocalPosition: {x: -0.00012289881, y: -0.0009117252, z: -0.0010421613}
-  m_LocalScale: {x: 1.0000116, y: 0.99999744, z: 0.9999916}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2514454877216349523}
-  m_Father: {fileID: 7655373100279185632}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7036213050428833696
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8879528567985173994}
-  m_Layer: 0
-  m_Name: Armature
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &7061957190751944394
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8727382865155383366}
-  m_Layer: 0
-  m_Name: DemonGirlTail2.001_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7079094208607217399
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168545053065129284}
-  m_LocalRotation: {x: 0.0000022882596, y: -0.00000075623404, z: -0.0000015497208,
-    w: 1}
-  m_LocalPosition: {x: -3.72529e-10, y: 0.001160826, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3486934430511240259}
-  m_Father: {fileID: 5884855255868757897}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7109864955519366704
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3232324663388276274}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit32
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &7131265536327986918
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5710158089540459319}
-  m_Layer: 0
-  m_Name: DemonGirlLFoot_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7180125316204735924
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510553507221065438}
-  m_LocalRotation: {x: 0.00000007627504, y: 0.00000026290365, z: 0.45013967, w: 0.89295816}
-  m_LocalPosition: {x: -0.0043023657, y: -0.0000000015647902, z: 0.0000000017538934}
-  m_LocalScale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 31245944676582089}
-  m_Father: {fileID: 8300646968910657741}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &7186184273161334958
 Transform:
   m_ObjectHideFlags: 0
@@ -12468,22 +9350,6 @@ Transform:
   m_Father: {fileID: 1235938340517206700}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7189434785408083567
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2856803947204916894}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit33_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &7231673050144372882
 Transform:
   m_ObjectHideFlags: 0
@@ -12500,151 +9366,6 @@ Transform:
   m_Father: {fileID: 7186184273161334958}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7243354083438902981
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6789183811313463730}
-  m_Layer: 0
-  m_Name: DemonGirlRLegFoot_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7268123199615024448
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8796306978888077794}
-  m_LocalRotation: {x: 0.10676521, y: 0.7461401, z: 0.24439064, w: 0.61004055}
-  m_LocalPosition: {x: 0.000786939, y: 0.0027042553, z: 0.0013652119}
-  m_LocalScale: {x: 0.99999964, y: 1.0000001, z: 1.0000007}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7947519725899135358}
-  m_Father: {fileID: 6473221161363535286}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7287558776679138594
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6638738517261293405}
-  m_Layer: 0
-  m_Name: DemonGirlSpine4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7364265372393896501
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2375987153454427201}
-  m_LocalRotation: {x: 0.03494726, y: 0.11417318, z: -0.24029726, w: 0.96332777}
-  m_LocalPosition: {x: -0.0011608423, y: -0.0000000031292438, z: 0}
-  m_LocalScale: {x: 0.99999744, y: 1.000012, z: 0.9999905}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3304965473612665682}
-  m_Father: {fileID: 2514454877216349523}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7383707301284471594
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 706845992873171223}
-  m_Layer: 0
-  m_Name: DemonGirlTail5_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7406799019929494913
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8659584773277507084}
-  m_LocalRotation: {x: -1.4566126e-13, y: 1.030287e-13, z: 0.0000005941838, w: 1}
-  m_LocalPosition: {x: 2.9631148e-10, y: 0.004508444, z: 2.2737367e-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4311898648961252380}
-  m_Father: {fileID: 8727382865155383366}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &7470422831868268848
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5291886722562231267}
-  m_LocalRotation: {x: -0.027957246, y: -0.057312753, z: 0.46624357, w: 0.88235515}
-  m_LocalPosition: {x: -0.0011929603, y: 0.0000000010430813, z: -0.0000000011920929}
-  m_LocalScale: {x: 1.000002, y: 1.0000062, z: 0.99999076}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3083417130216018197}
-  m_Father: {fileID: 4361347759609165174}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &7496802057559148118
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5815057590985091654}
-  m_LocalRotation: {x: 0.008544602, y: -0.1184272, z: 0.24434666, w: 0.96239114}
-  m_LocalPosition: {x: -0.004281955, y: -0.000106635016, z: -0.0019846894}
-  m_LocalScale: {x: 1.0000054, y: 1.0000029, z: 0.9999927}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6764082011925779754}
-  m_Father: {fileID: 4615111592189703513}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &7531881130575904172
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234084786766238904}
-  m_LocalRotation: {x: -0.00000013102994, y: -0.000000031745756, z: -0.020026233,
-    w: 0.99979943}
-  m_LocalPosition: {x: -0.0036340281, y: -0.0000000035739725, z: 7.052267e-10}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 456253599673551280}
-  m_Father: {fileID: 7593665971320944447}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7558423777945871423
 GameObject:
   m_ObjectHideFlags: 0
@@ -12656,273 +9377,6 @@ GameObject:
   - component: {fileID: 6191042417026360749}
   m_Layer: 0
   m_Name: Bip001 L Toe0Nub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7570657592538107998
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8373153344942582349}
-  m_LocalRotation: {x: -0.010987315, y: 0.02851925, z: 0.2825479, w: 0.9587662}
-  m_LocalPosition: {x: -0.0047000125, y: 0.00025342085, z: -0.0004974538}
-  m_LocalScale: {x: 1.0000063, y: 1.0000029, z: 0.99999166}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3232324663388276274}
-  m_Father: {fileID: 4615111592189703513}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &7583533736590330825
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9149344184772806955}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 3
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: e7a9382fd366c41489fd2da0edceab74, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -7853093734937975658, guid: 5bde3b1b4d92e42dfa8700320743e6b7, type: 3}
-  m_Bones:
-  - {fileID: 2842984776865288342}
-  - {fileID: 4604161705835962960}
-  - {fileID: 2201034155639752998}
-  - {fileID: 5318752062124007291}
-  - {fileID: 9101188746559586309}
-  - {fileID: 5710158089540459319}
-  - {fileID: 6489275962470364355}
-  - {fileID: 3924965547669681085}
-  - {fileID: 5891235545881241482}
-  - {fileID: 6638738517261293405}
-  - {fileID: 6473221161363535286}
-  - {fileID: 7268123199615024448}
-  - {fileID: 7947519725899135358}
-  - {fileID: 3005472366491806080}
-  - {fileID: 4615111592189703513}
-  - {fileID: 767980314927361627}
-  - {fileID: 213551183412399695}
-  - {fileID: 5884855255868757897}
-  - {fileID: 7079094208607217399}
-  - {fileID: 3486934430511240259}
-  - {fileID: 6844148875578910795}
-  - {fileID: 4866766407296640604}
-  - {fileID: 5379524808148158995}
-  - {fileID: 1639784997484059437}
-  - {fileID: 6197326454820825836}
-  - {fileID: 7570657592538107998}
-  - {fileID: 3232324663388276274}
-  - {fileID: 6927744716993303227}
-  - {fileID: 10036401891142223}
-  - {fileID: 5669338616077170021}
-  - {fileID: 7496802057559148118}
-  - {fileID: 6764082011925779754}
-  - {fileID: 8482927875214508348}
-  - {fileID: 3786474363653480282}
-  - {fileID: 3072893920272646113}
-  - {fileID: 4948711316617038888}
-  - {fileID: 8730830225776333549}
-  - {fileID: 365868675207809048}
-  - {fileID: 8300646968910657741}
-  - {fileID: 7180125316204735924}
-  - {fileID: 31245944676582089}
-  - {fileID: 7593665971320944447}
-  - {fileID: 7531881130575904172}
-  - {fileID: 456253599673551280}
-  - {fileID: 706845992873171223}
-  - {fileID: 979031479220017255}
-  - {fileID: 5644168959469091724}
-  - {fileID: 4365148517391675510}
-  - {fileID: 7655373100279185632}
-  - {fileID: 7029177134183906374}
-  - {fileID: 2514454877216349523}
-  - {fileID: 7364265372393896501}
-  - {fileID: 3304965473612665682}
-  - {fileID: 2881005778329488845}
-  - {fileID: 4849800081910191533}
-  - {fileID: 3561456569133558557}
-  - {fileID: 52692239478858413}
-  - {fileID: 4425425087473795613}
-  - {fileID: 9100132602448592736}
-  - {fileID: 1096546752612028773}
-  - {fileID: 3070138180184421972}
-  - {fileID: 5040032544752000727}
-  - {fileID: 4472849173187277674}
-  - {fileID: 2856803947204916894}
-  - {fileID: 4361347759609165174}
-  - {fileID: 7470422831868268848}
-  - {fileID: 3083417130216018197}
-  - {fileID: 1410413827552482807}
-  - {fileID: 2973517887798440434}
-  - {fileID: 9089150369157401209}
-  - {fileID: 1843713545546695784}
-  - {fileID: 8727382865155383366}
-  - {fileID: 7406799019929494913}
-  - {fileID: 5856495525098900412}
-  - {fileID: 8819146280734232062}
-  - {fileID: 7760347949206751661}
-  - {fileID: 1357926323789762136}
-  - {fileID: 6789183811313463730}
-  - {fileID: 8677668579723725243}
-  - {fileID: 1367974788711839566}
-  - {fileID: 4722479539699456342}
-  - {fileID: 2469060389166150503}
-  - {fileID: 2146940596542378977}
-  - {fileID: 8136033484282249597}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 2842984776865288342}
-  m_AABB:
-    m_Center: {x: -0.002307017, y: 0.00071414746, z: -0.00003996119}
-    m_Extent: {x: 0.009360108, y: 0.009096324, z: 0.010769721}
-  m_DirtyAABB: 0
---- !u!4 &7585231854264606034
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7761223290274481170}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0010979335, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6197326454820825836}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &7593665971320944447
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9182406741068850309}
-  m_LocalRotation: {x: -0.000000016596918, y: -0.000000078705966, z: 0.12934932, w: 0.9915991}
-  m_LocalPosition: {x: -0.0045216577, y: -0.0000000026792022, z: 9.0554036e-10}
-  m_LocalScale: {x: 0.9999999, y: 0.9999997, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7531881130575904172}
-  m_Father: {fileID: 31245944676582089}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &7655373100279185632
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427041669727763398}
-  m_LocalRotation: {x: 0.67688674, y: 0.02059137, z: 0.04312482, w: 0.73453426}
-  m_LocalPosition: {x: -0.01185328, y: 0.000000011622905, z: -0.0000000144424845}
-  m_LocalScale: {x: 1.0000094, y: 0.99999607, z: 0.9999957}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7029177134183906374}
-  - {fileID: 4849800081910191533}
-  - {fileID: 1096546752612028773}
-  - {fileID: 4361347759609165174}
-  - {fileID: 6904529657311054230}
-  m_Father: {fileID: 4365148517391675510}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &7663834936640087824
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5706235922935056646}
-  m_LocalRotation: {x: -0.70710665, y: 3.7560346e-10, z: 3.7558567e-10, w: 0.7071069}
-  m_LocalPosition: {x: -0.000000105168134, y: 4.548211, z: 0.0000014980087}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 543450652196185460}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &7760347949206751661
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661876958043447323}
-  m_LocalRotation: {x: 0.078543454, y: 0.0175769, z: -0.7765039, w: 0.62495095}
-  m_LocalPosition: {x: -0.024747876, y: -0.000000021681188, z: -0.0000000010803342}
-  m_LocalScale: {x: 1.0000013, y: 0.999999, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1357926323789762136}
-  m_Father: {fileID: 8819146280734232062}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7761223290274481170
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7585231854264606034}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit23_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &7768002771676433840
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5379524808148158995}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12944,30 +9398,6 @@ Transform:
   m_Father: {fileID: 3802603975347515821}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7850988985706879794
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 979031479220017255}
-  m_Layer: 0
-  m_Name: DemonGirlRArmCollarbone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!33 &7928417071406110937
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3708335276779733458}
-  m_Mesh: {fileID: 7304324054890237592, guid: 5bde3b1b4d92e42dfa8700320743e6b7, type: 3}
 --- !u!4 &7932822855331237462
 Transform:
   m_ObjectHideFlags: 0
@@ -12982,22 +9412,6 @@ Transform:
   m_Children:
   - {fileID: 4620532937468400874}
   m_Father: {fileID: 278975600699987019}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &7947519725899135358
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2388021394761935911}
-  m_LocalRotation: {x: 0.28411397, y: 0.44498056, z: -0.08644087, w: 0.84486663}
-  m_LocalPosition: {x: -0.0055345274, y: -0.000000004172325, z: -0.00000000115484}
-  m_LocalScale: {x: 0.9999996, y: 0.9999992, z: 1.0000014}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3005472366491806080}
-  m_Father: {fileID: 7268123199615024448}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8003292228895571403
@@ -13032,112 +9446,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &8038557850847072767
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4948711316617038888}
-  m_Layer: 0
-  m_Name: DemonGirlNeck1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8092458557274915750
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9002360398533422119}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0016383444, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2856803947204916894}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8118329299803172355
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5891235545881241482}
-  m_Layer: 0
-  m_Name: DemonGirlSpine3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &8119746731386088582
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3708335276779733458}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &8136033484282249597
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4953892102193134325}
-  m_LocalRotation: {x: -0.0000000074505815, y: -0.000000007683402, z: 1.3877788e-14,
-    w: 1}
-  m_LocalPosition: {x: 7.105427e-17, y: 0.009999996, z: -0.0000000014901159}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2026658479805786900}
-  m_Father: {fileID: 2146940596542378977}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8153460546864300925
 Transform:
   m_ObjectHideFlags: 0
@@ -13168,102 +9476,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 634865995060841267}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8299030103983706500
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 10036401891142223}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit33_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8300646968910657741
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6518872146966270116}
-  m_LocalRotation: {x: 0.00000017510294, y: -0.00000010935078, z: 0.68065786, w: 0.7326014}
-  m_LocalPosition: {x: -0.006109428, y: -0.0021739088, z: 0.0000000010284696}
-  m_LocalScale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7180125316204735924}
-  m_Father: {fileID: 365868675207809048}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8343541236293415304
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1764973049624804464}
-  m_Layer: 0
-  m_Name: DemonGirlLPlatform_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &8373153344942582349
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7570657592538107998}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit31
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &8422750907986295069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 31245944676582089}
-  m_Layer: 0
-  m_Name: DemonGirlTail3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8482927875214508348
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2280301980688193938}
-  m_LocalRotation: {x: -0.00000048326655, y: 0.00000009178344, z: 0.105649196, w: 0.9944035}
-  m_LocalPosition: {x: -0.0011182823, y: 0.0000000061839818, z: 0.0000000010430813}
-  m_LocalScale: {x: 0.99999964, y: 1.0000099, z: 0.99999285}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3786474363653480282}
-  m_Father: {fileID: 6764082011925779754}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8566746470021649783
 Transform:
@@ -13297,167 +9509,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &8659584773277507084
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7406799019929494913}
-  m_Layer: 0
-  m_Name: DemonGirlTail2.001_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8677668579723725243
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709420606255627066}
-  m_LocalRotation: {x: -0.5398099, y: 0.53980994, z: 0.45673323, w: -0.45673326}
-  m_LocalPosition: {x: -0.009124043, y: -9.5068876e-11, z: 0.0009878008}
-  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1367974788711839566}
-  m_Father: {fileID: 8879528567985173994}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &8727382865155383366
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7061957190751944394}
-  m_LocalRotation: {x: 8.171241e-14, y: 2.3109067e-10, z: -0.00000064820046, w: 1}
-  m_LocalPosition: {x: 2.9619324e-10, y: 0.0045084427, z: -1.5347722e-14}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7406799019929494913}
-  m_Father: {fileID: 1843713545546695784}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &8730830225776333549
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3734937987150419178}
-  m_LocalRotation: {x: 0.0000000053088502, y: 0.000000019027736, z: 0.2889433, w: 0.9573462}
-  m_LocalPosition: {x: -0.0026102236, y: -5.962561e-10, z: -1.910962e-11}
-  m_LocalScale: {x: 0.99999976, y: 0.9999999, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 365868675207809048}
-  m_Father: {fileID: 4948711316617038888}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8746772571064679361
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2469060389166150503}
-  m_Layer: 0
-  m_Name: DemonGirlRLegPlatform
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8750823634173663089
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3363540267524631888}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.024747878, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5710158089540459319}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8796306978888077794
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7268123199615024448}
-  m_Layer: 0
-  m_Name: DemonGirlLCollarbone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8819146280734232062
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2362371784577041715}
-  m_LocalRotation: {x: -0.0018912265, y: -0.06366565, z: 0.27740672, w: 0.95863897}
-  m_LocalPosition: {x: -0.02046098, y: 0.000000041015447, z: 0.000000023213214}
-  m_LocalScale: {x: 1.0000008, y: 0.9999997, z: 0.999998}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7760347949206751661}
-  m_Father: {fileID: 5856495525098900412}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &8879528567985173994
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7036213050428833696}
-  m_LocalRotation: {x: 0.00000014106499, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8677668579723725243}
-  - {fileID: 2842984776865288342}
-  - {fileID: 2469060389166150503}
-  m_Father: {fileID: 543450652196185460}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &9002360398533422119
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8092458557274915750}
-  m_Layer: 0
-  m_Name: DemonGirlRArmDigit33_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &9016474359362547940
 GameObject:
   m_ObjectHideFlags: 0
@@ -13474,208 +9525,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &9019930399290823619
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5644168959469091724}
-  m_Layer: 0
-  m_Name: DemonGirlRArmUpperarm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!137 &9073663936477601959
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 642439031965735159}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 3
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: e7a9382fd366c41489fd2da0edceab74, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4046371474010709181, guid: 5bde3b1b4d92e42dfa8700320743e6b7, type: 3}
-  m_Bones:
-  - {fileID: 2842984776865288342}
-  - {fileID: 4604161705835962960}
-  - {fileID: 2201034155639752998}
-  - {fileID: 5318752062124007291}
-  - {fileID: 9101188746559586309}
-  - {fileID: 5710158089540459319}
-  - {fileID: 6489275962470364355}
-  - {fileID: 3924965547669681085}
-  - {fileID: 5891235545881241482}
-  - {fileID: 6638738517261293405}
-  - {fileID: 6473221161363535286}
-  - {fileID: 7268123199615024448}
-  - {fileID: 7947519725899135358}
-  - {fileID: 3005472366491806080}
-  - {fileID: 4615111592189703513}
-  - {fileID: 767980314927361627}
-  - {fileID: 213551183412399695}
-  - {fileID: 5884855255868757897}
-  - {fileID: 7079094208607217399}
-  - {fileID: 3486934430511240259}
-  - {fileID: 6844148875578910795}
-  - {fileID: 4866766407296640604}
-  - {fileID: 5379524808148158995}
-  - {fileID: 1639784997484059437}
-  - {fileID: 6197326454820825836}
-  - {fileID: 7570657592538107998}
-  - {fileID: 3232324663388276274}
-  - {fileID: 6927744716993303227}
-  - {fileID: 10036401891142223}
-  - {fileID: 5669338616077170021}
-  - {fileID: 7496802057559148118}
-  - {fileID: 6764082011925779754}
-  - {fileID: 8482927875214508348}
-  - {fileID: 3786474363653480282}
-  - {fileID: 3072893920272646113}
-  - {fileID: 4948711316617038888}
-  - {fileID: 8730830225776333549}
-  - {fileID: 365868675207809048}
-  - {fileID: 8300646968910657741}
-  - {fileID: 7180125316204735924}
-  - {fileID: 31245944676582089}
-  - {fileID: 7593665971320944447}
-  - {fileID: 7531881130575904172}
-  - {fileID: 456253599673551280}
-  - {fileID: 706845992873171223}
-  - {fileID: 979031479220017255}
-  - {fileID: 5644168959469091724}
-  - {fileID: 4365148517391675510}
-  - {fileID: 7655373100279185632}
-  - {fileID: 7029177134183906374}
-  - {fileID: 2514454877216349523}
-  - {fileID: 7364265372393896501}
-  - {fileID: 3304965473612665682}
-  - {fileID: 2881005778329488845}
-  - {fileID: 4849800081910191533}
-  - {fileID: 3561456569133558557}
-  - {fileID: 52692239478858413}
-  - {fileID: 4425425087473795613}
-  - {fileID: 9100132602448592736}
-  - {fileID: 1096546752612028773}
-  - {fileID: 3070138180184421972}
-  - {fileID: 5040032544752000727}
-  - {fileID: 4472849173187277674}
-  - {fileID: 2856803947204916894}
-  - {fileID: 4361347759609165174}
-  - {fileID: 7470422831868268848}
-  - {fileID: 3083417130216018197}
-  - {fileID: 1410413827552482807}
-  - {fileID: 2973517887798440434}
-  - {fileID: 9089150369157401209}
-  - {fileID: 1843713545546695784}
-  - {fileID: 8727382865155383366}
-  - {fileID: 7406799019929494913}
-  - {fileID: 5856495525098900412}
-  - {fileID: 8819146280734232062}
-  - {fileID: 7760347949206751661}
-  - {fileID: 1357926323789762136}
-  - {fileID: 6789183811313463730}
-  - {fileID: 8677668579723725243}
-  - {fileID: 1367974788711839566}
-  - {fileID: 4722479539699456342}
-  - {fileID: 2469060389166150503}
-  - {fileID: 2146940596542378977}
-  - {fileID: 8136033484282249597}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 2842984776865288342}
-  m_AABB:
-    m_Center: {x: 0.015937526, y: -0.006864315, z: -0.00023109047}
-    m_Extent: {x: 0.023985688, y: 0.020996194, z: 0.008452594}
-  m_DirtyAABB: 0
---- !u!4 &9089150369157401209
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5237056920302788037}
-  m_LocalRotation: {x: 0.00000029735614, y: -0.0000001535597, z: 0.86120105, w: 0.5082645}
-  m_LocalPosition: {x: -0.0026246794, y: -0.0030839804, z: 1.2864007e-10}
-  m_LocalScale: {x: 1, y: 0.9999998, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1843713545546695784}
-  m_Father: {fileID: 2842984776865288342}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &9100132602448592736
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1308017157520945139}
-  m_LocalRotation: {x: 0.00000230968, y: -0.00000089220697, z: 0.0000011734664, w: 1}
-  m_LocalPosition: {x: 8.9406965e-10, y: 0.001097932, z: 0.0000000011920929}
-  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4519572691412304214}
-  m_Father: {fileID: 4425425087473795613}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &9101188746559586309
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4414222840390209624}
-  m_LocalRotation: {x: -0.000000018018598, y: -0.00000008508455, z: 0.00000005937182,
-    w: 1}
-  m_LocalPosition: {x: -2.6077032e-10, y: 0.024747878, z: 7.389826e-10}
-  m_LocalScale: {x: 1, y: 0.99999976, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5710158089540459319}
-  m_Father: {fileID: 5318752062124007291}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &9101249539550740662
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -13747,84 +9596,3 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.07668215, y: 0.20266843, z: 0.10606074}
     m_Extent: {x: 0.80979764, y: 0.7373841, z: 0.9799017}
   m_DirtyAABB: 0
---- !u!1 &9116850647504394926
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5669338616077170021}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit33_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &9128868925101662791
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4866766407296640604}
-  m_Layer: 0
-  m_Name: DemonGirlLDigit22
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &9149344184772806955
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6169481203205357027}
-  - component: {fileID: 7583533736590330825}
-  m_Layer: 0
-  m_Name: DG_SKIN_pelvisarmor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &9182406741068850309
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7593665971320944447}
-  m_Layer: 0
-  m_Name: DemonGirlTail4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &9208957500411604750
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4311898648961252380}
-  m_Layer: 0
-  m_Name: DemonGirlTail2.001_end_end_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
