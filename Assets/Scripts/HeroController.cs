@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class HeroController : MonoBehaviour
 {
-
+    public Healthbar healthbar;
     public float movmentSpeed = 5f;
     public NavMeshAgent agent;
     public float maxMovmentRange;
@@ -15,31 +15,60 @@ public class HeroController : MonoBehaviour
     public HeroMovmentArea movmentArea;
     private GameObject boss;
 
+    public Animator animator;
 
-    // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();   
         agent = GetComponent<NavMeshAgent>();
         boss = GameObject.Find("Boss");
-            agent.SetDestination(boss.transform.position);
+        animator.SetBool("IsRunning", true);
+        agent.SetDestination(boss.transform.position);
 
-
-       // FindNewTargetPos();
     }
 
-    // Update is called once per frame
     void Update()
     {
+
     agent.SetDestination(boss.transform.position);
 
+        if (!animator.GetBool("IsDead"))
+        {
+            agent.SetDestination(boss.transform.position);
+            if (agent.velocity.sqrMagnitude > 0)
+            {
+                animator.SetBool("IsRunning", true);
+            }
 
+            if (Vector3.Distance(transform.position, boss.transform.position) < 25.0f) 
+            {
+                animator.SetBool("IsAttacking", true);
+                this.transform.LookAt(boss.transform);
+            }
+            if (healthbar.Current == 0.0f)
+            {
+                animator.SetBool("IsWonGame", true);
+            }
+        }
+        else
+        {
+            agent.ResetPath();
+        }
+
+                
     }
 
-
      public void Move()
-     {         
-              isMoving = true;
+     {
+        if (!animator.GetBool("IsDead"))
+        {
+            isMoving = true;
             agent.SetDestination(boss.transform.position);
+        }
+        else
+        {
+            agent.ResetPath();
+        }
      }
 
      void OnDrawGizmosSelected()
@@ -48,11 +77,15 @@ public class HeroController : MonoBehaviour
         Gizmos.DrawLine(transform.position, boss.transform.position);
      }
 
-      void OnCollisionEnter(Collision collision)
-      {
-        if(collision.gameObject.tag == "Laser")
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Laser" || collision.gameObject.tag == "Slash" || collision.gameObject.tag == "Wave" || collision.gameObject.tag == "Scattar")
         {
-            print("Dead");
+            animator.SetBool("IsDead", true);
+            animator.SetBool("IsRunning", false);
         }
-      }
+
+    }
+
+
 }
