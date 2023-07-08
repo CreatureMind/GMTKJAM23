@@ -12,7 +12,7 @@ public class AOE : MonoBehaviour
     public int _AOE_FlashCounter = 0;
     public int _AOE_Max_FlashCounter = 3;
     public SkillsTimers _SkillsTimers_Script;
-
+    public bool _ShouldFireProjectile = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +38,7 @@ public class AOE : MonoBehaviour
         if (_AOE_FlashCounter == _AOE_Max_FlashCounter)
         {
             _AOE_IsFlashing = false;
+            _ShouldFireProjectile = true;
             _AOE_FlashCounter = 0;
 
               var image = GetComponent<Image>();

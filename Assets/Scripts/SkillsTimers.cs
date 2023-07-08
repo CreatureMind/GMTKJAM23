@@ -15,6 +15,10 @@ public class SkillsTimers : MonoBehaviour
     public Image[] skillsImages = new Image[4];
     public AOE[] _AOE_Script = new AOE[4];
 
+    public GameObject[] _SkillsProjectiles = new GameObject [4];
+    public float _ActiveTimerFire;
+    public float[] _ActiveTimerFireArray = new float [4];
+
     // Start is called before the first frame update
     void Start() { }
 
@@ -23,6 +27,18 @@ public class SkillsTimers : MonoBehaviour
     {
         for (int i = 0; i < 4; i++)
         {
+            
+            if(_AOE_Script[i]._ShouldFireProjectile == true)
+            {
+                 if(_SkillsProjectiles[i].GetComponent<WaveProjectile>() != null) //Wave Attack
+                 {
+                _SkillsProjectiles[i].GetComponent<WaveProjectile>().expandCircle = true;
+                _SkillsProjectiles[i].GetComponent<WaveProjectile>().enteredLoop = true;
+                 }
+                 _SkillsProjectiles[i].SetActive(true);
+                 _AOE_Script[i]._ShouldFireProjectile = false;
+            }
+
             if (skillsImages[i].fillAmount < 1)
             {
                 skillsImages[i].fillAmount = skillsTimers[i] / skillsIntervals[i];
@@ -32,9 +48,31 @@ public class SkillsTimers : MonoBehaviour
                     PerformAttack(i);
                     // Reset timer
                     skillsTimers[i] = 0f;
+                 
                 }
+         
+          if (_ActiveTimerFire >= _ActiveTimerFireArray[i])
+                {
+                    // Perform attack
+                    // if(_SkillsProjectiles[i].GetComponent<WaveProjectile>() != null) //Wave Attack
+                    // {
+                    //  if(_SkillsProjectiles[i].GetComponent<WaveProjectile>().circleRadius >= _SkillsProjectiles[i].GetComponent<WaveProjectile>().circleMaxRadius)
+                    //  {
+                    // _SkillsProjectiles[i].GetComponent<WaveProjectile>().expandCircle = false;
+                    // _SkillsProjectiles[i].SetActive(false);
+                    //  }
+                    // }
+                     if(_SkillsProjectiles[i].GetComponent<WaveProjectile>() == null)
+                     _SkillsProjectiles[i].SetActive(false);
+                    // Reset timer
+                    _ActiveTimerFire = 0f;
+                 
+                }
+         
+         
                 // Update timers
                 skillsTimers[i] += Time.deltaTime;
+                _ActiveTimerFire += Time.deltaTime;
             }
             else
             {
@@ -44,12 +82,13 @@ public class SkillsTimers : MonoBehaviour
                     _AOE_Script[i]._AOE_IsFlashing = true;
                 }
             }
+
+          
         }
     }
 
     public void PerformAttack(int attackIndex)
     {
-        
         //Laser Attack
         if (attackIndex == 0)
         {
