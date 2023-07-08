@@ -30,6 +30,8 @@ public class HeroController : MonoBehaviour
     void Update()
     {
 
+    agent.SetDestination(boss.transform.position);
+
         if (!animator.GetBool("IsDead"))
         {
             agent.SetDestination(boss.transform.position);
