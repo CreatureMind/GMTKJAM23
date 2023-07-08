@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Boss
+  - Laser
+  - Slash
+  - Wave
+  - Scattar
   layers:
   - Default
   - TransparentFX

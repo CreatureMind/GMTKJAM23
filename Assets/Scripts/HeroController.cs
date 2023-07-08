@@ -69,5 +69,11 @@ public class HeroController : MonoBehaviour
         Gizmos.DrawLine(transform.position, boss.transform.position);
      }
 
-      
+      void OnCollisionEnter(Collision collision)
+      {
+        if(collision.gameObject.tag == "Laser")
+        {
+            print("Dead");
+        }
+      }
 }
