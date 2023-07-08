@@ -16,7 +16,7 @@ public class AOE : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _AOE_IsFlashing = true;
+        _AOE_IsFlashing = false;
     }
 
     // Update is called once per frame
@@ -38,10 +38,19 @@ public class AOE : MonoBehaviour
         if (_AOE_FlashCounter == _AOE_Max_FlashCounter)
         {
             _AOE_IsFlashing = false;
-            _SkillsTimers_Script.skillsImages[0].fillAmount = 0;
+            _AOE_FlashCounter = 0;
+
+              var image = GetComponent<Image>();
+            var tempColor = image.color;
+            tempColor.a = 0f; //0f;
+            image.color = tempColor;
+    
         }
     }
-
+    public void ResetAttackTimer(int attackIndex)
+    {
+      _SkillsTimers_Script.skillsImages[attackIndex].fillAmount = 0;
+    }
     private bool shouldResetTimer()
     {
         return _AOE_Flash >= _AOE_Flash_Timer;
@@ -49,15 +58,14 @@ public class AOE : MonoBehaviour
 
     public void PerformFlash()
     {
-        foreach (Transform child in transform)
-        {
+      
             // if(child.gameObject.name == "Lazer")
             //  {
-            var image = child.GetComponent<Image>();
+            var image = GetComponent<Image>();
             var tempColor = image.color;
             tempColor.a = _AOE_Flash / 100; //0f;
             image.color = tempColor;
             // }
-        }
+      
     }
 }

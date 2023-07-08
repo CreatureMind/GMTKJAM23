@@ -6,14 +6,14 @@ using UnityEngine.UI;
 public class SkillsTimers : MonoBehaviour
 {
     [SerializeField]
-    private float[] skillsTimers = new float[1];
+    private float[] skillsTimers = new float[4];
 
     [SerializeField]
-    private float[] skillsIntervals = new float[1];
+    private float[] skillsIntervals = new float[4];
 
     [SerializeField]
-    public Image[] skillsImages = new Image[1];
-    public AOE _AOE_Script;
+    public Image[] skillsImages = new Image[4];
+    public AOE[] _AOE_Script = new AOE[4];
 
     // Start is called before the first frame update
     void Start() { }
@@ -21,7 +21,7 @@ public class SkillsTimers : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < 1; i++)
+        for (int i = 0; i < 4; i++)
         {
             if (skillsImages[i].fillAmount < 1)
             {
@@ -38,36 +38,40 @@ public class SkillsTimers : MonoBehaviour
             }
             else
             {
-                if (!_AOE_Script._AOE_IsFlashing)
-                    _AOE_Script._AOE_IsFlashing = true;
+                if (!_AOE_Script[i]._AOE_IsFlashing)
+                {
+                     skillsImages[i].fillAmount = 0;
+                    _AOE_Script[i]._AOE_IsFlashing = true;
+                }
             }
         }
     }
 
     public void PerformAttack(int attackIndex)
     {
+        
         //Laser Attack
         if (attackIndex == 0)
         {
             //  print("Laser Attack");
         }
 
-        // //Wave Attack
-        // if (attackIndex == 1)
-        // {
-        //     // print("Wave Attack");
-        // }
+        //Wave Attack
+        if (attackIndex == 1)
+        {
+            // print("Wave Attack");
+        }
 
-        // //Slash Attack
-        // if (attackIndex == 2)
-        // {
-        //     //   print("Slash Attack");
-        // }
+        //Slash Attack
+        if (attackIndex == 2)
+        {
+            //   print("Slash Attack");
+        }
 
-        // //Scattar Attack
-        // if (attackIndex == 3)
-        // {
-        //     //    print("Scattar Attack");
-        // }
+        //Scattar Attack
+        if (attackIndex == 3)
+        {
+            //    print("Scattar Attack");
+        }
     }
 }
