@@ -31,32 +31,11 @@ public class HeroController : MonoBehaviour
     void Update()
     {
     agent.SetDestination(boss.transform.position);
-    //  if (agent.remainingDistance <= agent.stoppingDistance)
-    //  {
-    //      if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
-    //      {
-    //         agent.velocity = Vector3.zero;
-    //         agent.Stop();
-    //         print("test");
-    //           Move();
-    //      }
-    //  }
 
 
     }
 
-//      private void FindNewTargetPos() {
-//            maxMovmentRange = movmentArea.circleRadius; //radius of *black circle*
-//   centerPosition = gameObject.transform.localPosition; //center of *black circle*
-//        Vector3 pos = movmentArea.gameObject.transform.localPosition;
-//          targetPos = new Vector3();
-//          targetPos.x  = Random.Range(pos.x - maxMovmentRange, pos.x + maxMovmentRange);
-//          targetPos.y = pos.y;
-//          targetPos.z = Random.Range(pos.z - maxMovmentRange, pos.z + maxMovmentRange);
-    
-//        Move();          
 
-//      }
      public void Move()
      {         
               isMoving = true;
