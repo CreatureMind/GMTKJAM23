@@ -3,24 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Healthbar : MonoBehaviour
+public class healthbar : MonoBehaviour
 {
-    [SerializeField] public Image HealthbarImage;
+    [SerializeField] private Image Healthbar;
     float Fullhealth = 100;
-    public float Current = 100;
+    float current = 100;
 
         void OnCollisionEnter(Collision collision)
         {
-            if (collision.gameObject.tag == "Player")
+            if (collision.gameObject.name == "Hero")
             {
-            Current -= 10;
-            OnHit(Fullhealth, Current);
+            current -= 10;
+            OnHit(Fullhealth, current);
             }
         }
 
-    private void OnHit( float full , float Current)
+    private void OnHit( float full , float current)
     {
-        HealthbarImage.fillAmount = Current/full;
+        Healthbar.fillAmount = current/full;
     }
 
 }
