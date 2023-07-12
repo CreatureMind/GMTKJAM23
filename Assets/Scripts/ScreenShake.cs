@@ -13,7 +13,7 @@ public class ScreenShake : MonoBehaviour
 
     void Start()
     {
-      shakeIntensity = 0; // remove to activate
+     shakeIntensity = 0; // remove to activate
     }
 
     void Update()
@@ -39,6 +39,6 @@ public class ScreenShake : MonoBehaviour
     public void Shake()
     {
         originPosition = transform.position;
-        shakeIntensity = 0f;  // 7f or above 0 to activate     
+        shakeIntensity = 7f;  // 7f or above 0 to activate     
     }
 }
